@@ -1,0 +1,5 @@
+{% for person in include.participants %}
+{% if person.login_age == "new" %}
+{{ person.name }}
+{% endif %}
+{% endfor %}

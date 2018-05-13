@@ -5,6 +5,30 @@
     <title></title>
   </head>
   <body>
+    <p>We had a great trip</p>
+
+<p>This is code we did develop:</p>
+
+<figure class="highlight"><pre><code class="language-python" data-lang="python"><span class="c"># Basic I/O with HID</span>
+<span class="k">class</span> <span class="nc">_HID</span><span class="p">:</span>
+    <span class="nd">@staticmethod</span>
+    <span class="c"># Write the data buffer to the HID given by hidraw_number</span>
+    <span class="k">def</span> <span class="nf">write</span><span class="p">(</span><span class="n">hidraw_number</span><span class="p">,</span> <span class="n">data</span><span class="p">):</span>
+        <span class="n">dev</span> <span class="o">=</span> <span class="n">os</span><span class="o">.</span><span class="nb">open</span><span class="p">(</span><span class="s">"/dev/hidraw"</span> <span class="o">+</span> <span class="nb">str</span><span class="p">(</span><span class="n">hidraw_number</span><span class="p">),</span> <span class="n">os</span><span class="o">.</span><span class="n">O_WRONLY</span><span class="p">)</span>
+        <span class="n">ret</span> <span class="o">=</span> <span class="n">os</span><span class="o">.</span><span class="n">write</span><span class="p">(</span><span class="n">dev</span><span class="p">,</span> <span class="n">data</span><span class="p">)</span>
+        <span class="n">os</span><span class="o">.</span><span class="n">close</span><span class="p">(</span><span class="n">dev</span><span class="p">)</span>
+        <span class="k">return</span> <span class="n">ret</span>
+
+    <span class="nd">@staticmethod</span>
+    <span class="c"># Read the hex dump of the HID given by hidraw_number and return it as a string</span>
+    <span class="k">def</span> <span class="nf">read</span><span class="p">(</span><span class="n">hidraw_number</span><span class="p">):</span>
+        <span class="n">dev</span> <span class="o">=</span> <span class="n">os</span><span class="o">.</span><span class="nb">open</span><span class="p">(</span><span class="s">"/dev/hidraw"</span> <span class="o">+</span> <span class="nb">str</span><span class="p">(</span><span class="n">hidraw_number</span><span class="p">),</span> <span class="n">os</span><span class="o">.</span><span class="n">O_RDONLY</span><span class="p">)</span>
+        <span class="n">data</span> <span class="o">=</span> <span class="n">os</span><span class="o">.</span><span class="n">read</span><span class="p">(</span><span class="n">dev</span><span class="p">,</span> <span class="mi">6</span><span class="p">)</span>
+        <span class="n">os</span><span class="o">.</span><span class="n">close</span><span class="p">(</span><span class="n">dev</span><span class="p">)</span>
+        <span class="k">return</span> <span class="n">data</span><span class="o">.</span><span class="n">encode</span><span class="p">(</span><span class="s">"hex"</span><span class="p">)</span></code></pre></figure>
+
+<p><strong>Higlight</strong>
+<em>Italyc</em></p>
 
   </body>
 </html>

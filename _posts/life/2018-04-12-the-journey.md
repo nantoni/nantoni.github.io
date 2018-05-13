@@ -1,8 +1,9 @@
 ---
-layout: post
+layout:  post
 title:  "THE JOURNEY"
 date:   2018-04-12 00:00:00 +0000
 categories: all life
+img: "https://lh3.googleusercontent.com/mNeKLg6JxfkxNK32H3s0ykeBkjuijF0O2M2jiAb5FY75jyJJ9slNwF0YVZM8SpBjVFoxle-tMXyK5f41aEvm2gkazMSzjH7jxJTq_1cQlf5wZD2cynvmXQP6yzaXVZawMadYX1SkUOoiyubNI8-2KKvlv2CYoN8wIcowIXu7TdO-ksznKRIuK19SBcmBALSdti7O6syCu2FVQNU6Yahv4C4wEMC7AiIKAo12Viqt5WW4lsaAnTX_59H_AilcYd84O7CMh-fvMUlcYu2LB8-vDQlIb6rjWiwR7uWR_UaGArj9TOuNny1fm4IY3P1ssDCb8QeJ50rLFa71AlV1dBJHKa_TbjP1XLvpZgn0ALOMM_qyRMgET1ebLK4GYOgO_DVBLlB2Uv9_jnGFx4yWQGjDrSfuPnpD94Tmg48f55RecsbDniiaUJCIGlBpPJfAFVPZy2xkWd3kQLqv8BnAGKNnMdzIIJPdX2Z6WN9mlYO3J5Ctl3_SJOvv3A-B5v_ej0E69CKKTI7nsreM08Y-RsO95A4rjVBOAWfqsxYaw_TU9dM_Fb_z3dTMSNOKfIKA6XOMXLv2D-2RWrtXRtWWhc7jkQicW5PvSDxAiwn4Fts=w1239-h929-no"
 ---
 
 We had a great trip

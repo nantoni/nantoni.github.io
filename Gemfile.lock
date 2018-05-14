@@ -46,6 +46,10 @@ GEM
       jekyll (~> 3.5)
       jekyll-feed (~> 0.9)
       jekyll-seo-tag (~> 2.1)
+    octopress-hooks (2.6.2)
+      jekyll (>= 2.0)
+    octopress-paginate (1.2.0)
+      octopress-hooks
     pathutil (0.16.1)
       forwardable-extended (~> 2.6)
     public_suffix (3.0.2)
@@ -66,9 +70,9 @@ PLATFORMS
 
 DEPENDENCIES
   jekyll (~> 3.8.1)
-  jekyll-feed (~> 0.6)
   minima (~> 2.0)
+  octopress-paginate
   tzinfo-data
 
 BUNDLED WITH
-   1.11.2
+   1.16.1

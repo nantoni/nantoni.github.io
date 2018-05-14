@@ -23,10 +23,11 @@ url: "https://nathanantoni.fr" # the base hostname & protocol for your site, e.g
 # Build settings
 markdown: kramdown
 theme: minima
-# plugins:
-#   - jekyll-feed
+plugins:
+  - octopress-paginate
 
-# Default yml values to be used 
+
+# Default yml values to be used
 defaults:
   -
     scope:

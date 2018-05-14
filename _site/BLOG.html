@@ -1,6 +1,3 @@
----
----
-
 <!DOCTYPE html>
 <html>
 <title>NATHAN'S BLOG</title>
@@ -34,65 +31,26 @@ and is wrapped around the whole page content, except for the footer in this exam
 
 <!-- Blog entries -->
 <div class="w3-col l8 s12">
-
-  {% for post in site.posts %}
-    <div class="w3-card-4 w3-margin w3-white">
-      <img src="{{ post.img }}" style="width:100%">
-      <div class="w3-container">
-        <h3><b>{{ post.title }}</b></h3>
-        <h5><span class="w3-opacity">{{ post.date }}</span></h5>
-      </div>
-
-      <div class="w3-container">
-        <p>{{ post.description }}</p>
-        <div class="w3-row">
-          <div class="w3-col m8 s12">
-            <p><a href="{{ post.url }}" class="w3-button w3-padding-large w3-white w3-border"><b>READ MORE &raquo;</b></a></p>
-          </div>
-        </div>
-      </div>
-    </div>
-    <hr>
-  {% endfor %}
-
-  <!-- Blog entry -->
-  <!-- <div class="w3-card-4 w3-margin w3-white">
-    <img src="https://lh3.googleusercontent.com/mNeKLg6JxfkxNK32H3s0ykeBkjuijF0O2M2jiAb5FY75jyJJ9slNwF0YVZM8SpBjVFoxle-tMXyK5f41aEvm2gkazMSzjH7jxJTq_1cQlf5wZD2cynvmXQP6yzaXVZawMadYX1SkUOoiyubNI8-2KKvlv2CYoN8wIcowIXu7TdO-ksznKRIuK19SBcmBALSdti7O6syCu2FVQNU6Yahv4C4wEMC7AiIKAo12Viqt5WW4lsaAnTX_59H_AilcYd84O7CMh-fvMUlcYu2LB8-vDQlIb6rjWiwR7uWR_UaGArj9TOuNny1fm4IY3P1ssDCb8QeJ50rLFa71AlV1dBJHKa_TbjP1XLvpZgn0ALOMM_qyRMgET1ebLK4GYOgO_DVBLlB2Uv9_jnGFx4yWQGjDrSfuPnpD94Tmg48f55RecsbDniiaUJCIGlBpPJfAFVPZy2xkWd3kQLqv8BnAGKNnMdzIIJPdX2Z6WN9mlYO3J5Ctl3_SJOvv3A-B5v_ej0E69CKKTI7nsreM08Y-RsO95A4rjVBOAWfqsxYaw_TU9dM_Fb_z3dTMSNOKfIKA6XOMXLv2D-2RWrtXRtWWhc7jkQicW5PvSDxAiwn4Fts=w1239-h929-no" alt="dog_roof" style="width:100%">
+  
+  <div class="w3-card-4 w3-margin w3-white">
+    <img src="https://lh3.googleusercontent.com/uHMuHEXjwd9UEcO7WLDjAhXfv-nMZOcwA8g6G20f1q5C85gPGRk6yB5mEbIbkZaKgCKrXsQsbLLTZu_R3g667kvSV0kZbrOcp3YvFwkhKkX7hrqNMl0sE8dUtiGS9cwqPZGjcUMjFPd07ewZKq6gVhttRRrZBB_n6wy1FFVDmS4Vb7xe9yyvT7pU3kaWNrHdAE2m2ryMzDkA5EdqUAHn_PAqgHUlupytJz8nXkItxzVROBDzSpaf1ZgTxT-OOTiYChJFAoPsiZ3zcyAbwFhAAKiBI3xPQodeQwZaGnoB8nRppaIPTphx__FCom7ZFWwx71jUhd5ysCH-kRyE1j7-o2EZ3-oiYFlNEbeeQzsoLPgsaS7qYsIzHD1ENmFRDYTKq2q0apZC-CKdxqbCXtPYEjY_eiqNVU-9Nk_5mns4YWrwvwevo4Gp2ETch3d2TjpS3lGyOmYVL6T9cBFPGX7lwhlIYRIt6VeEnXcHmtRopU965f-mfJxtQ1yvzY9HZx5n9LGwpkK3f2UOL9U8plxx0gKcJ5NJYuV2LFo5NhAF77PgBC6-mjW2IoU50Qjktf-AvVYEO1Tc72pUukaaMtlY6dr-dRfWBT9_f6_6TkU=w1239-h929-no" style="width:100%">
     <div class="w3-container">
-      <h3><b>TITLE HEADING</b></h3>
-      <h5>Title description, <span class="w3-opacity">April 7, 2014</span></h5>
+      <h3><b>Welcome to Jekyll!</b></h3>
+      <h5><span class="w3-opacity">2018-05-09</span></h5>
     </div>
 
     <div class="w3-container">
-      <p>Mauris neque quam, fermentum ut nisl vitae, convallis maximus nisl. Sed mattis nunc id lorem euismod placerat. Vivamus porttitor magna enim, ac accumsan tortor cursus at. Phasellus sed ultricies mi non congue ullam corper. Praesent tincidunt sed
-        tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</p>
+      <p>You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.</p>
       <div class="w3-row">
         <div class="w3-col m8 s12">
-          <p><button class="w3-button w3-padding-large w3-white w3-border"><b>READ MORE &raquo;</b></button></p>
+          <p><a href="/all/work/2018/05/09/welcome-to-jekyll.html" class="w3-button w3-padding-large w3-white w3-border"><b>READ MORE &raquo;</b></a></p>
         </div>
       </div>
     </div>
   </div>
-  <hr> -->
+  <hr>
 
-  <!-- Blog entry -->
-  <!-- <div class="w3-card-4 w3-margin w3-white">
-  <img src="https://lh3.googleusercontent.com/uHMuHEXjwd9UEcO7WLDjAhXfv-nMZOcwA8g6G20f1q5C85gPGRk6yB5mEbIbkZaKgCKrXsQsbLLTZu_R3g667kvSV0kZbrOcp3YvFwkhKkX7hrqNMl0sE8dUtiGS9cwqPZGjcUMjFPd07ewZKq6gVhttRRrZBB_n6wy1FFVDmS4Vb7xe9yyvT7pU3kaWNrHdAE2m2ryMzDkA5EdqUAHn_PAqgHUlupytJz8nXkItxzVROBDzSpaf1ZgTxT-OOTiYChJFAoPsiZ3zcyAbwFhAAKiBI3xPQodeQwZaGnoB8nRppaIPTphx__FCom7ZFWwx71jUhd5ysCH-kRyE1j7-o2EZ3-oiYFlNEbeeQzsoLPgsaS7qYsIzHD1ENmFRDYTKq2q0apZC-CKdxqbCXtPYEjY_eiqNVU-9Nk_5mns4YWrwvwevo4Gp2ETch3d2TjpS3lGyOmYVL6T9cBFPGX7lwhlIYRIt6VeEnXcHmtRopU965f-mfJxtQ1yvzY9HZx5n9LGwpkK3f2UOL9U8plxx0gKcJ5NJYuV2LFo5NhAF77PgBC6-mjW2IoU50Qjktf-AvVYEO1Tc72pUukaaMtlY6dr-dRfWBT9_f6_6TkU=w1239-h929-no" alt="beer_box" style="width:100%">
-    <div class="w3-container">
-      <h3><b>BLOG ENTRY</b></h3>
-      <h5>Title description, <span class="w3-opacity">April 2, 2014</span></h5>
-    </div>
 
-    <div class="w3-container">
-      <p>Mauris neque quam, fermentum ut nisl vitae, convallis maximus nisl. Sed mattis nunc id lorem euismod placerat. Vivamus porttitor magna enim, ac accumsan tortor cursus at. Phasellus sed ultricies mi non congue ullam corper. Praesent tincidunt sed
-        tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</p>
-      <div class="w3-row">
-        <div class="w3-col m8 s12">
-          <p><button class="w3-button w3-padding-large w3-white w3-border"><b>READ MORE &raquo;</b></button></p>
-        </div>
-      </div>
-    </div>
-  </div> -->
 <!-- END BLOG ENTRIES -->
 </div>
 
@@ -113,19 +71,19 @@ and is wrapped around the whole page content, except for the footer in this exam
       <h4>Subjects</h4>
     </div>
     <ul class="w3-ul w3-hoverable w3-white">
-      <a href="/" style="text-decoration: none">
+      <a href="/BLOG" style="text-decoration: none">
         <li class="w3-padding-16">
           <img src="https://lh3.googleusercontent.com/WWFbdSVs0d5S_dZtyNSToF8AWElOiXY7pprzqyUt4qKnHiwHVC2kks_HDH9oDsQ37kPHlDoNP_lLCWt99TiiorWabDitXEDJIEnDXgEDYMxpb0Ld0kqL7APDzEV9I9lHM6s8H3wKDa4uIaV3sQp1_cuo6HmQWBkTgrZ8UPUk0BLWGL-VnZU7bCerssmG30IhVoEj6nd5DcRYR-WfzD01xSC3cywaN0akjxT_YpRRXW6f_YIjq23RSPD-HVhfmqr7KjHJUVURGUlmMlZLRbNFQBzFhKigC34KNYiChPO-fKb9pl9xz6nu4X4--plcdHFwkn5dbHPn9uU94-4tQNYyKtHmdYilcC5mVTHtKvPGYXkFztRlRBUyR4AuL51U9aJ_NbcU-u8XL2M7w_M9otxTbdKxb4YrXTkig_MPf-WucFUd6dzmvZdIBsdbb0E_t3lYShTkvEUdMtCDJG3jWtZtMIbjdrkc6_21949R8kPrVTxPAf0VCjDHXLyY56G6vETdzuMbnLfLq000oHBIu_os1Kh784Dmt2jepMHpbbOdSnzGd7dg2jfbxWy8V0R3l7Z3LDrJ2KZ8NxjXeqxLGbMs6z4sEBIMl1LA_XCiyrg=w1239-h929-no" alt="Image" class="w3-left w3-margin-right" style="width:50px">
           <span class="w3-large">ALL</span><br>
         </li>
       </a>
-      <a href="/" style="text-decoration: none">
+      <a href="/BLOG" style="text-decoration: none">
         <li class="w3-padding-16">
           <img src="https://lh3.googleusercontent.com/FVKbtQhFukPt3jbsQGlSpMlRtY-DmrYD121NOLOHSnebKWBqP13lppHZQLd0aMSWPQJr2h9hPgmPGpKHyaxWaRl6z-Wj-LVgm56dPiEvuzglnEwySEkT2bGqF212K31k_CGA6BVWVmAqhuoOcSmYPp3SElA3v5LGXCM55Xklfbk9H7rMv9fGFg0g5zuMFQ6ytJhMZ9ivXhWzs-TZB7-2k87lfpoHoVSDUBn9nIkFHju7pQ1YFtgaKhtJyUVaH057JsW8_4_7y82DYRlT56z69s6iov4dIImC9MZLRg0d2Uiryl0Cv7q47LQAKQx6WmwIxbInJqKzyJX0eEkJGlsp4fGGHYpEefHjCGykUhsM2xDsO5K5BWR5wkXbJogqUMtFh4Unf9V586T3jzb6ZgH3_17K9bOgxxs3teQ-O1BDYwoapgxOQMd6MRhgoQaH-0TBA33i3bHezr-X0WfVrB_mtDJn-uX3Ud5Q8iQJHFCpMh5jzhmnlMg-VFgFmv14YPJ96KUWy_cu-cI4zNAsMKkyK9LpBucw3uEpKvKHS3GovviBtTwUqHh-fNMTFqAERT2AeOeBAD-H4NUEYDZchpCbPsJX0D8G1WvHfx3SF1Y=w1239-h929-no" alt="Image" class="w3-left w3-margin-right" style="width:50px">
           <span class="w3-large">LIFE</span><br>
         </li>
       </a>
-      <a href="/" style="text-decoration: none">
+      <a href="/BLOG" style="text-decoration: none">
         <li class="w3-padding-16">
           <img src="https://lh3.googleusercontent.com/Ev7V8Qt8Zh3LFPqy89Q_IkR-iDBjdwT2K7qLfIKWdtPj7REshvzP9JQ4zPwJdoJqSRdKHrSJ5EajgrdonbcFAou4HraQTNJNRRx-Z29xwFcM3UEwgA7kX5nuJcudpiWIwXdNjIfwe8axiyEvSmoft9oHdVLrt-P3zfOpFBg7Ac1PKggyNfBuxgYdB33TDV7IQh5tnkOO86qI_WVrn41GN8yahXTk5sSF-63esYbsgGnUhFMi2pfTrLJEZmoIMJBJ1LD6VUL5jBP0tPUtP6AcK-Fdvx2GG4WsW0fvkTPvQZf4EmjCK91438dyHmNf0s9WjLtZUb_tjciKevyaXs52VrIglmwLpxh0F1Q1h2G7p2Ts7vS5jsjLODailZSPzzjCYfwwmw0h0Jju_0UZODtzR80FUvzLK0V8K2stpHinTh8KjWI3X6hVj91C2Hw9WuXaz9TkoYy-4WQwUmc8phuBJEYD0rF9cY_39eFDb_iAhP5OPSMUqr7zlZuz_0jzxDS3l2mmBXo--QuEX6O_kzWzJ8XM162GhF82iUVxH0WuaGWEl5SydYmTitIiZ8mqGU94E5v-Cjqo7gtOIGNsuShK5godVdvnwBvmpot1Hds=w270-h203-no" alt="Image" class="w3-left w3-margin-right" style="width:50px">
           <span class="w3-large">WORK</span><br>
@@ -134,6 +92,17 @@ and is wrapped around the whole page content, except for the footer in this exam
     </ul>
   </div>
   <hr>
+
+  <!-- Gallery -->
+  <div class="w3-card w3-margin w3-hoverable w3-white">
+    <ul class="w3-ul w3-hoverable w3-white">
+      <a href="/pages/gallery.html" style="text-decoration: none">
+        <li class="w3-padding-16">
+        <h4>Gallery</h4>
+        </li>
+      </a>
+    </ul>
+  </div>
 
 <!-- END Introduction Menu -->
 </div>

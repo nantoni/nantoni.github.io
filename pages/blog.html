@@ -1,6 +1,11 @@
+---
+paginate: true
+permalink: BLOG
+---
+
 <!DOCTYPE html>
 <html>
-<title> NATHAN ANTONI</title>
+<title>NATHAN'S BLOG</title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="/assets/w3.css">
@@ -22,43 +27,17 @@ and is wrapped around the whole page content, except for the footer in this exam
 
 <!-- Header -->
 <header class="w3-container w3-center w3-padding-32">
-  <h1><b>THE JOURNEY</b></h1>
-  <p><a href="javascript:history.back()" class="w3-button w3-black">BACK</a></p>
+  <h1><b>ROMANIAN INTERNSHIP'S BLOG</b></h1>
+  <p>Welcome to the blog of <a href="/" class="w3-button w3-black">Nathan ANTONI</a></p>
 </header>
 
 <!-- Grid -->
 <div class="w3-row">
 
-<!-- Post content -->
+<!-- Blog entries -->
 <div class="w3-col l8 s12">
-  <p>
-    <p>We had a great trip</p>
-
-<p>This is code we did develop:</p>
-
-<figure class="highlight"><pre><code class="language-python" data-lang="python"><span class="c"># Basic I/O with HID</span>
-<span class="k">class</span> <span class="nc">_HID</span><span class="p">:</span>
-    <span class="nd">@staticmethod</span>
-    <span class="c"># Write the data buffer to the HID given by hidraw_number</span>
-    <span class="k">def</span> <span class="nf">write</span><span class="p">(</span><span class="n">hidraw_number</span><span class="p">,</span> <span class="n">data</span><span class="p">):</span>
-        <span class="n">dev</span> <span class="o">=</span> <span class="n">os</span><span class="o">.</span><span class="nb">open</span><span class="p">(</span><span class="s">"/dev/hidraw"</span> <span class="o">+</span> <span class="nb">str</span><span class="p">(</span><span class="n">hidraw_number</span><span class="p">),</span> <span class="n">os</span><span class="o">.</span><span class="n">O_WRONLY</span><span class="p">)</span>
-        <span class="n">ret</span> <span class="o">=</span> <span class="n">os</span><span class="o">.</span><span class="n">write</span><span class="p">(</span><span class="n">dev</span><span class="p">,</span> <span class="n">data</span><span class="p">)</span>
-        <span class="n">os</span><span class="o">.</span><span class="n">close</span><span class="p">(</span><span class="n">dev</span><span class="p">)</span>
-        <span class="k">return</span> <span class="n">ret</span>
-
-    <span class="nd">@staticmethod</span>
-    <span class="c"># Read the hex dump of the HID given by hidraw_number and return it as a string</span>
-    <span class="k">def</span> <span class="nf">read</span><span class="p">(</span><span class="n">hidraw_number</span><span class="p">):</span>
-        <span class="n">dev</span> <span class="o">=</span> <span class="n">os</span><span class="o">.</span><span class="nb">open</span><span class="p">(</span><span class="s">"/dev/hidraw"</span> <span class="o">+</span> <span class="nb">str</span><span class="p">(</span><span class="n">hidraw_number</span><span class="p">),</span> <span class="n">os</span><span class="o">.</span><span class="n">O_RDONLY</span><span class="p">)</span>
-        <span class="n">data</span> <span class="o">=</span> <span class="n">os</span><span class="o">.</span><span class="n">read</span><span class="p">(</span><span class="n">dev</span><span class="p">,</span> <span class="mi">6</span><span class="p">)</span>
-        <span class="n">os</span><span class="o">.</span><span class="n">close</span><span class="p">(</span><span class="n">dev</span><span class="p">)</span>
-        <span class="k">return</span> <span class="n">data</span><span class="o">.</span><span class="n">encode</span><span class="p">(</span><span class="s">"hex"</span><span class="p">)</span></code></pre></figure>
-
-<p><strong>Higlight</strong>
-<em>Italyc</em></p>
-
-  </p>
-<!-- END POST CONTENT -->
+  {% include list_all_post.html %}
+<!-- END BLOG ENTRIES -->
 </div>
 
 <!-- Introduction menu -->
@@ -72,25 +51,25 @@ and is wrapped around the whole page content, except for the footer in this exam
     </div>
   </div><hr>
 
-  <!-- Subjects -->
+  <!-- Posts -->
   <div class="w3-card w3-margin">
     <div class="w3-container w3-padding">
       <h4>Subjects</h4>
     </div>
     <ul class="w3-ul w3-hoverable w3-white">
-      <a href="/BLOG" style="text-decoration: none">
+      <a href="{{ site.baseurl }}{% link pages/blog.html %}" style="text-decoration: none">
         <li class="w3-padding-16">
           <img src="https://lh3.googleusercontent.com/WWFbdSVs0d5S_dZtyNSToF8AWElOiXY7pprzqyUt4qKnHiwHVC2kks_HDH9oDsQ37kPHlDoNP_lLCWt99TiiorWabDitXEDJIEnDXgEDYMxpb0Ld0kqL7APDzEV9I9lHM6s8H3wKDa4uIaV3sQp1_cuo6HmQWBkTgrZ8UPUk0BLWGL-VnZU7bCerssmG30IhVoEj6nd5DcRYR-WfzD01xSC3cywaN0akjxT_YpRRXW6f_YIjq23RSPD-HVhfmqr7KjHJUVURGUlmMlZLRbNFQBzFhKigC34KNYiChPO-fKb9pl9xz6nu4X4--plcdHFwkn5dbHPn9uU94-4tQNYyKtHmdYilcC5mVTHtKvPGYXkFztRlRBUyR4AuL51U9aJ_NbcU-u8XL2M7w_M9otxTbdKxb4YrXTkig_MPf-WucFUd6dzmvZdIBsdbb0E_t3lYShTkvEUdMtCDJG3jWtZtMIbjdrkc6_21949R8kPrVTxPAf0VCjDHXLyY56G6vETdzuMbnLfLq000oHBIu_os1Kh784Dmt2jepMHpbbOdSnzGd7dg2jfbxWy8V0R3l7Z3LDrJ2KZ8NxjXeqxLGbMs6z4sEBIMl1LA_XCiyrg=w1239-h929-no" alt="Image" class="w3-left w3-margin-right" style="width:50px">
           <span class="w3-large">ALL</span><br>
         </li>
       </a>
-      <a href="/BLOG" style="text-decoration: none">
+      <a href="{{ site.baseurl }}{% link pages/blog_life.html %}" style="text-decoration: none">
         <li class="w3-padding-16">
           <img src="https://lh3.googleusercontent.com/FVKbtQhFukPt3jbsQGlSpMlRtY-DmrYD121NOLOHSnebKWBqP13lppHZQLd0aMSWPQJr2h9hPgmPGpKHyaxWaRl6z-Wj-LVgm56dPiEvuzglnEwySEkT2bGqF212K31k_CGA6BVWVmAqhuoOcSmYPp3SElA3v5LGXCM55Xklfbk9H7rMv9fGFg0g5zuMFQ6ytJhMZ9ivXhWzs-TZB7-2k87lfpoHoVSDUBn9nIkFHju7pQ1YFtgaKhtJyUVaH057JsW8_4_7y82DYRlT56z69s6iov4dIImC9MZLRg0d2Uiryl0Cv7q47LQAKQx6WmwIxbInJqKzyJX0eEkJGlsp4fGGHYpEefHjCGykUhsM2xDsO5K5BWR5wkXbJogqUMtFh4Unf9V586T3jzb6ZgH3_17K9bOgxxs3teQ-O1BDYwoapgxOQMd6MRhgoQaH-0TBA33i3bHezr-X0WfVrB_mtDJn-uX3Ud5Q8iQJHFCpMh5jzhmnlMg-VFgFmv14YPJ96KUWy_cu-cI4zNAsMKkyK9LpBucw3uEpKvKHS3GovviBtTwUqHh-fNMTFqAERT2AeOeBAD-H4NUEYDZchpCbPsJX0D8G1WvHfx3SF1Y=w1239-h929-no" alt="Image" class="w3-left w3-margin-right" style="width:50px">
           <span class="w3-large">LIFE</span><br>
         </li>
       </a>
-      <a href="/BLOG" style="text-decoration: none">
+      <a href="{{ site.baseurl }}{% link pages/blog_work.html %}" style="text-decoration: none">
         <li class="w3-padding-16">
           <img src="https://lh3.googleusercontent.com/Ev7V8Qt8Zh3LFPqy89Q_IkR-iDBjdwT2K7qLfIKWdtPj7REshvzP9JQ4zPwJdoJqSRdKHrSJ5EajgrdonbcFAou4HraQTNJNRRx-Z29xwFcM3UEwgA7kX5nuJcudpiWIwXdNjIfwe8axiyEvSmoft9oHdVLrt-P3zfOpFBg7Ac1PKggyNfBuxgYdB33TDV7IQh5tnkOO86qI_WVrn41GN8yahXTk5sSF-63esYbsgGnUhFMi2pfTrLJEZmoIMJBJ1LD6VUL5jBP0tPUtP6AcK-Fdvx2GG4WsW0fvkTPvQZf4EmjCK91438dyHmNf0s9WjLtZUb_tjciKevyaXs52VrIglmwLpxh0F1Q1h2G7p2Ts7vS5jsjLODailZSPzzjCYfwwmw0h0Jju_0UZODtzR80FUvzLK0V8K2stpHinTh8KjWI3X6hVj91C2Hw9WuXaz9TkoYy-4WQwUmc8phuBJEYD0rF9cY_39eFDb_iAhP5OPSMUqr7zlZuz_0jzxDS3l2mmBXo--QuEX6O_kzWzJ8XM162GhF82iUVxH0WuaGWEl5SydYmTitIiZ8mqGU94E5v-Cjqo7gtOIGNsuShK5godVdvnwBvmpot1Hds=w270-h203-no" alt="Image" class="w3-left w3-margin-right" style="width:50px">
           <span class="w3-large">WORK</span><br>
@@ -103,7 +82,7 @@ and is wrapped around the whole page content, except for the footer in this exam
   <!-- Gallery -->
   <div class="w3-card w3-margin w3-hoverable w3-white">
     <ul class="w3-ul w3-hoverable w3-white">
-      <a href="/pages/gallery.html" style="text-decoration: none">
+      <a href="{{ site.baseurl }}{% link pages/gallery.html %}" style="text-decoration: none">
         <li class="w3-padding-16">
         <h4>Gallery</h4>
         </li>

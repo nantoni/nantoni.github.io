@@ -1,5 +1,5 @@
 
-{% for post in paginator.posts %}
+{% for post in site.categories.all %}
   <div class="w3-card-4 w3-margin w3-white">
     <img src="{{ post.img }}" style="width:100%">
     <div class="w3-container">

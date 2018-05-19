@@ -19,11 +19,45 @@ body, html {
     font-family: 'Open Sans', sans-serif;
 }
 
+* {
+    box-sizing: border-box;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+}
+
+/* Create 3 equal columns that sits next to each other */
+.column {
+    flex: 33.33%;
+    max-width: 33.33%;
+    padding: 0 4px;
+}
+
+.column img {
+    margin-top: 8px;
+    vertical-align: middle;
+}
+
+/* Responsive layout - makes a two column-layout instead of three columns */
+@media (max-width: 800px) {
+    .column {
+        flex: 50%;
+        max-width: 50%;
+    }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media (max-width: 600px) {
+    .column {
+        flex: 100%;
+        max-width: 100%;
+    }
 }
 </style>
 <body class="w3-pale-grey">
-
-{{ page.content }}
 
 <!-- w3-content defines a container for fixed size centered content,
 and is wrapped around the whole page content, except for the footer in this example -->
@@ -47,26 +81,27 @@ and is wrapped around the whole page content, except for the footer in this exam
   <!-- Push down content on small screens -->
   <div class="w3-hide-large" style="margin-top:83px"></div>
 
-  <!-- Photo grid -->
-    <div class="w3-row w3-card w3-margin w3-margin-top">
-      <div class="w3-third">
+  <!-- Photo Grid -->
+  <div class="row" >
+    <div class="column">
         <img src="https://lh3.googleusercontent.com/uHMuHEXjwd9UEcO7WLDjAhXfv-nMZOcwA8g6G20f1q5C85gPGRk6yB5mEbIbkZaKgCKrXsQsbLLTZu_R3g667kvSV0kZbrOcp3YvFwkhKkX7hrqNMl0sE8dUtiGS9cwqPZGjcUMjFPd07ewZKq6gVhttRRrZBB_n6wy1FFVDmS4Vb7xe9yyvT7pU3kaWNrHdAE2m2ryMzDkA5EdqUAHn_PAqgHUlupytJz8nXkItxzVROBDzSpaf1ZgTxT-OOTiYChJFAoPsiZ3zcyAbwFhAAKiBI3xPQodeQwZaGnoB8nRppaIPTphx__FCom7ZFWwx71jUhd5ysCH-kRyE1j7-o2EZ3-oiYFlNEbeeQzsoLPgsaS7qYsIzHD1ENmFRDYTKq2q0apZC-CKdxqbCXtPYEjY_eiqNVU-9Nk_5mns4YWrwvwevo4Gp2ETch3d2TjpS3lGyOmYVL6T9cBFPGX7lwhlIYRIt6VeEnXcHmtRopU965f-mfJxtQ1yvzY9HZx5n9LGwpkK3f2UOL9U8plxx0gKcJ5NJYuV2LFo5NhAF77PgBC6-mjW2IoU50Qjktf-AvVYEO1Tc72pUukaaMtlY6dr-dRfWBT9_f6_6TkU=w1239-h929-no" style="width:100%" onclick="onClick(this)" alt="A boy surrounded by beautiful nature">
-        <img src="https://lh3.googleusercontent.com/uHMuHEXjwd9UEcO7WLDjAhXfv-nMZOcwA8g6G20f1q5C85gPGRk6yB5mEbIbkZaKgCKrXsQsbLLTZu_R3g667kvSV0kZbrOcp3YvFwkhKkX7hrqNMl0sE8dUtiGS9cwqPZGjcUMjFPd07ewZKq6gVhttRRrZBB_n6wy1FFVDmS4Vb7xe9yyvT7pU3kaWNrHdAE2m2ryMzDkA5EdqUAHn_PAqgHUlupytJz8nXkItxzVROBDzSpaf1ZgTxT-OOTiYChJFAoPsiZ3zcyAbwFhAAKiBI3xPQodeQwZaGnoB8nRppaIPTphx__FCom7ZFWwx71jUhd5ysCH-kRyE1j7-o2EZ3-oiYFlNEbeeQzsoLPgsaS7qYsIzHD1ENmFRDYTKq2q0apZC-CKdxqbCXtPYEjY_eiqNVU-9Nk_5mns4YWrwvwevo4Gp2ETch3d2TjpS3lGyOmYVL6T9cBFPGX7lwhlIYRIt6VeEnXcHmtRopU965f-mfJxtQ1yvzY9HZx5n9LGwpkK3f2UOL9U8plxx0gKcJ5NJYuV2LFo5NhAF77PgBC6-mjW2IoU50Qjktf-AvVYEO1Tc72pUukaaMtlY6dr-dRfWBT9_f6_6TkU=w1239-h929-no" style="width:100%" onclick="onClick(this)" alt="What a beautiful scenery this sunset">
-        <img src="https://lh3.googleusercontent.com/uHMuHEXjwd9UEcO7WLDjAhXfv-nMZOcwA8g6G20f1q5C85gPGRk6yB5mEbIbkZaKgCKrXsQsbLLTZu_R3g667kvSV0kZbrOcp3YvFwkhKkX7hrqNMl0sE8dUtiGS9cwqPZGjcUMjFPd07ewZKq6gVhttRRrZBB_n6wy1FFVDmS4Vb7xe9yyvT7pU3kaWNrHdAE2m2ryMzDkA5EdqUAHn_PAqgHUlupytJz8nXkItxzVROBDzSpaf1ZgTxT-OOTiYChJFAoPsiZ3zcyAbwFhAAKiBI3xPQodeQwZaGnoB8nRppaIPTphx__FCom7ZFWwx71jUhd5ysCH-kRyE1j7-o2EZ3-oiYFlNEbeeQzsoLPgsaS7qYsIzHD1ENmFRDYTKq2q0apZC-CKdxqbCXtPYEjY_eiqNVU-9Nk_5mns4YWrwvwevo4Gp2ETch3d2TjpS3lGyOmYVL6T9cBFPGX7lwhlIYRIt6VeEnXcHmtRopU965f-mfJxtQ1yvzY9HZx5n9LGwpkK3f2UOL9U8plxx0gKcJ5NJYuV2LFo5NhAF77PgBC6-mjW2IoU50Qjktf-AvVYEO1Tc72pUukaaMtlY6dr-dRfWBT9_f6_6TkU=w1239-h929-no" style="width:100%" onclick="onClick(this)" alt="The Beach. Me. Alone. Beautiful">
-      </div>
+        <img src="https://lh3.googleusercontent.com/18eVtcVpgMzj2uX7wNsvCGWwLHXad1CRLlSNlpmMuyU93Ww1K79f4Q2Y14XjfmvOjFzyeLxgZWfZ_sUGS8oGPawiKmTe_JuhA7UZWSPyCh1QSACjf6lh55F176db2GtX3Hkk-FcR79yhDm3upYqe7deTdFlMWs3CZ7-4nPUMf1Grpv9-8UbpE5BIYFDqBh4nvZ9iMceWsqSVzfGSi3vO3zlfh3WAJ6-QIhaSo0a9IldormJ7j7XIMYSRJNaFCvZBUNOVHffLppAEo4CcOP3noBR8zpF85iROwL_s-tqkl0KhM77Pmf_8IcqsiRLeNztUzhvcOSp5qTuiPN3DN6eu6J7ZZnkqJ1wL6Bc_iM0d8k9v_cVRyywyoy0Mc_mUZFfryqaPfqEM02NAZqc_Ngy8LlAEnBqNLVpQ248WTavlK7N3dEGI0uqgGCx69B4GssQdRXL4lFV-29g8vGS-n-BXtaFbd08eQsrDv_UI6cB8aQfaUhjQiYFJVHcv8OVBk3q8UJKHhas2xiOITtxGXbmXKMTClJqku_fepFwKd5dTEwB6jtPnNjgdMOFlrbetI9JSyowGlwyQn_LedF7TeitmfiQlluJM_RGOKF0A0Ao=w1239-h929-no" style="width:100%" onclick="onClick(this)" alt="What a beautiful scenery this sunset">
+        <img src="https://lh3.googleusercontent.com/GSe6esyegq0rdmYGMCFYWrOV1HNOoPyRQuNTM7S4CQJF_KrVl8LpFL4JrXeWN-hsYfQjZhGlRclEA8McVfE9twf0yFVvPPI_mfaBw015jh7ifi3nxORfFP6dYSlaY08nGg8I0zOwHbMcjHx5cHWzv81uPgB23KBVmZ6cMBkQr-CSiylRvyggdn6MwGTsjarXwTXhm4CI5cidxbnDLlK4C313QJxNMal6ukicnFYvz3OI7WPM6kNKR_9UC5ipS1p88oKcb00yr9J_mksBLqyC-TbsGt3MIn5Wt7IObnQ4QNzmjRaPgwOVXjRYSL8ZbBUYdPHvNTz8vtpGkQdczFOu-Yirx_ISYkJwWrhfUEI6CXqyZhrTrjb9wfhNeuHLWQCyWOtSgwt9_84FkfjiioBTnX9uDI-zn7iMbct3ctjrFYhPhN_EYsA2_34Qzu9agvrVrwQpQfknNPM1O_JPne0PjuFbNQjEFwgR5yma7sLK-yS4j5EfLyUJkp1VUohzRKgzfUQh_O7qhMdlH9tlYCX7QZcLLH8rFG7S7u88ir5guQi2sEmfIk2l1nf2w9xQhuZOXUTirs4VIh-PWm3ZHTrCf-y4IAlDyuaj9bmOOuQ=w1239-h929-no" style="width:100%" onclick="onClick(this)" alt="The Beach. Me. Alone. Beautiful">
+        <img src="https://lh3.googleusercontent.com/uHMuHEXjwd9UEcO7WLDjAhXfv-nMZOcwA8g6G20f1q5C85gPGRk6yB5mEbIbkZaKgCKrXsQsbLLTZu_R3g667kvSV0kZbrOcp3YvFwkhKkX7hrqNMl0sE8dUtiGS9cwqPZGjcUMjFPd07ewZKq6gVhttRRrZBB_n6wy1FFVDmS4Vb7xe9yyvT7pU3kaWNrHdAE2m2ryMzDkA5EdqUAHn_PAqgHUlupytJz8nXkItxzVROBDzSpaf1ZgTxT-OOTiYChJFAoPsiZ3zcyAbwFhAAKiBI3xPQodeQwZaGnoB8nRppaIPTphx__FCom7ZFWwx71jUhd5ysCH-kRyE1j7-o2EZ3-oiYFlNEbeeQzsoLPgsaS7qYsIzHD1ENmFRDYTKq2q0apZC-CKdxqbCXtPYEjY_eiqNVU-9Nk_5mns4YWrwvwevo4Gp2ETch3d2TjpS3lGyOmYVL6T9cBFPGX7lwhlIYRIt6VeEnXcHmtRopU965f-mfJxtQ1yvzY9HZx5n9LGwpkK3f2UOL9U8plxx0gKcJ5NJYuV2LFo5NhAF77PgBC6-mjW2IoU50Qjktf-AvVYEO1Tc72pUukaaMtlY6dr-dRfWBT9_f6_6TkU=w1239-h929-no" style="width:100%" onclick="onClick(this)" alt="A boy surrounded by beautiful nature">
 
-      <div class="w3-third">
-        <img src="https://lh3.googleusercontent.com/uHMuHEXjwd9UEcO7WLDjAhXfv-nMZOcwA8g6G20f1q5C85gPGRk6yB5mEbIbkZaKgCKrXsQsbLLTZu_R3g667kvSV0kZbrOcp3YvFwkhKkX7hrqNMl0sE8dUtiGS9cwqPZGjcUMjFPd07ewZKq6gVhttRRrZBB_n6wy1FFVDmS4Vb7xe9yyvT7pU3kaWNrHdAE2m2ryMzDkA5EdqUAHn_PAqgHUlupytJz8nXkItxzVROBDzSpaf1ZgTxT-OOTiYChJFAoPsiZ3zcyAbwFhAAKiBI3xPQodeQwZaGnoB8nRppaIPTphx__FCom7ZFWwx71jUhd5ysCH-kRyE1j7-o2EZ3-oiYFlNEbeeQzsoLPgsaS7qYsIzHD1ENmFRDYTKq2q0apZC-CKdxqbCXtPYEjY_eiqNVU-9Nk_5mns4YWrwvwevo4Gp2ETch3d2TjpS3lGyOmYVL6T9cBFPGX7lwhlIYRIt6VeEnXcHmtRopU965f-mfJxtQ1yvzY9HZx5n9LGwpkK3f2UOL9U8plxx0gKcJ5NJYuV2LFo5NhAF77PgBC6-mjW2IoU50Qjktf-AvVYEO1Tc72pUukaaMtlY6dr-dRfWBT9_f6_6TkU=w1239-h929-no" style="width:100%" onclick="onClick(this)" alt="Quiet day at the beach. Cold, but beautiful">
-        <img src="https://lh3.googleusercontent.com/uHMuHEXjwd9UEcO7WLDjAhXfv-nMZOcwA8g6G20f1q5C85gPGRk6yB5mEbIbkZaKgCKrXsQsbLLTZu_R3g667kvSV0kZbrOcp3YvFwkhKkX7hrqNMl0sE8dUtiGS9cwqPZGjcUMjFPd07ewZKq6gVhttRRrZBB_n6wy1FFVDmS4Vb7xe9yyvT7pU3kaWNrHdAE2m2ryMzDkA5EdqUAHn_PAqgHUlupytJz8nXkItxzVROBDzSpaf1ZgTxT-OOTiYChJFAoPsiZ3zcyAbwFhAAKiBI3xPQodeQwZaGnoB8nRppaIPTphx__FCom7ZFWwx71jUhd5ysCH-kRyE1j7-o2EZ3-oiYFlNEbeeQzsoLPgsaS7qYsIzHD1ENmFRDYTKq2q0apZC-CKdxqbCXtPYEjY_eiqNVU-9Nk_5mns4YWrwvwevo4Gp2ETch3d2TjpS3lGyOmYVL6T9cBFPGX7lwhlIYRIt6VeEnXcHmtRopU965f-mfJxtQ1yvzY9HZx5n9LGwpkK3f2UOL9U8plxx0gKcJ5NJYuV2LFo5NhAF77PgBC6-mjW2IoU50Qjktf-AvVYEO1Tc72pUukaaMtlY6dr-dRfWBT9_f6_6TkU=w1239-h929-no" style="width:100%" onclick="onClick(this)" alt="Waiting for the bus in the desert">
-        <img src="https://lh3.googleusercontent.com/uHMuHEXjwd9UEcO7WLDjAhXfv-nMZOcwA8g6G20f1q5C85gPGRk6yB5mEbIbkZaKgCKrXsQsbLLTZu_R3g667kvSV0kZbrOcp3YvFwkhKkX7hrqNMl0sE8dUtiGS9cwqPZGjcUMjFPd07ewZKq6gVhttRRrZBB_n6wy1FFVDmS4Vb7xe9yyvT7pU3kaWNrHdAE2m2ryMzDkA5EdqUAHn_PAqgHUlupytJz8nXkItxzVROBDzSpaf1ZgTxT-OOTiYChJFAoPsiZ3zcyAbwFhAAKiBI3xPQodeQwZaGnoB8nRppaIPTphx__FCom7ZFWwx71jUhd5ysCH-kRyE1j7-o2EZ3-oiYFlNEbeeQzsoLPgsaS7qYsIzHD1ENmFRDYTKq2q0apZC-CKdxqbCXtPYEjY_eiqNVU-9Nk_5mns4YWrwvwevo4Gp2ETch3d2TjpS3lGyOmYVL6T9cBFPGX7lwhlIYRIt6VeEnXcHmtRopU965f-mfJxtQ1yvzY9HZx5n9LGwpkK3f2UOL9U8plxx0gKcJ5NJYuV2LFo5NhAF77PgBC6-mjW2IoU50Qjktf-AvVYEO1Tc72pUukaaMtlY6dr-dRfWBT9_f6_6TkU=w1239-h929-no" style="width:100%" onclick="onClick(this)" alt="Nature again.. At its finest!">
-      </div>
-
-      <div class="w3-third">
-        <img src="https://lh3.googleusercontent.com/uHMuHEXjwd9UEcO7WLDjAhXfv-nMZOcwA8g6G20f1q5C85gPGRk6yB5mEbIbkZaKgCKrXsQsbLLTZu_R3g667kvSV0kZbrOcp3YvFwkhKkX7hrqNMl0sE8dUtiGS9cwqPZGjcUMjFPd07ewZKq6gVhttRRrZBB_n6wy1FFVDmS4Vb7xe9yyvT7pU3kaWNrHdAE2m2ryMzDkA5EdqUAHn_PAqgHUlupytJz8nXkItxzVROBDzSpaf1ZgTxT-OOTiYChJFAoPsiZ3zcyAbwFhAAKiBI3xPQodeQwZaGnoB8nRppaIPTphx__FCom7ZFWwx71jUhd5ysCH-kRyE1j7-o2EZ3-oiYFlNEbeeQzsoLPgsaS7qYsIzHD1ENmFRDYTKq2q0apZC-CKdxqbCXtPYEjY_eiqNVU-9Nk_5mns4YWrwvwevo4Gp2ETch3d2TjpS3lGyOmYVL6T9cBFPGX7lwhlIYRIt6VeEnXcHmtRopU965f-mfJxtQ1yvzY9HZx5n9LGwpkK3f2UOL9U8plxx0gKcJ5NJYuV2LFo5NhAF77PgBC6-mjW2IoU50Qjktf-AvVYEO1Tc72pUukaaMtlY6dr-dRfWBT9_f6_6TkU=w1239-h929-no" style="width:100%" onclick="onClick(this)" alt="Canoeing again">
-        <img src="https://lh3.googleusercontent.com/uHMuHEXjwd9UEcO7WLDjAhXfv-nMZOcwA8g6G20f1q5C85gPGRk6yB5mEbIbkZaKgCKrXsQsbLLTZu_R3g667kvSV0kZbrOcp3YvFwkhKkX7hrqNMl0sE8dUtiGS9cwqPZGjcUMjFPd07ewZKq6gVhttRRrZBB_n6wy1FFVDmS4Vb7xe9yyvT7pU3kaWNrHdAE2m2ryMzDkA5EdqUAHn_PAqgHUlupytJz8nXkItxzVROBDzSpaf1ZgTxT-OOTiYChJFAoPsiZ3zcyAbwFhAAKiBI3xPQodeQwZaGnoB8nRppaIPTphx__FCom7ZFWwx71jUhd5ysCH-kRyE1j7-o2EZ3-oiYFlNEbeeQzsoLPgsaS7qYsIzHD1ENmFRDYTKq2q0apZC-CKdxqbCXtPYEjY_eiqNVU-9Nk_5mns4YWrwvwevo4Gp2ETch3d2TjpS3lGyOmYVL6T9cBFPGX7lwhlIYRIt6VeEnXcHmtRopU965f-mfJxtQ1yvzY9HZx5n9LGwpkK3f2UOL9U8plxx0gKcJ5NJYuV2LFo5NhAF77PgBC6-mjW2IoU50Qjktf-AvVYEO1Tc72pUukaaMtlY6dr-dRfWBT9_f6_6TkU=w1239-h929-no" style="width:100%" onclick="onClick(this)" alt="A girl, and a train passing">
-        <img src="https://lh3.googleusercontent.com/uHMuHEXjwd9UEcO7WLDjAhXfv-nMZOcwA8g6G20f1q5C85gPGRk6yB5mEbIbkZaKgCKrXsQsbLLTZu_R3g667kvSV0kZbrOcp3YvFwkhKkX7hrqNMl0sE8dUtiGS9cwqPZGjcUMjFPd07ewZKq6gVhttRRrZBB_n6wy1FFVDmS4Vb7xe9yyvT7pU3kaWNrHdAE2m2ryMzDkA5EdqUAHn_PAqgHUlupytJz8nXkItxzVROBDzSpaf1ZgTxT-OOTiYChJFAoPsiZ3zcyAbwFhAAKiBI3xPQodeQwZaGnoB8nRppaIPTphx__FCom7ZFWwx71jUhd5ysCH-kRyE1j7-o2EZ3-oiYFlNEbeeQzsoLPgsaS7qYsIzHD1ENmFRDYTKq2q0apZC-CKdxqbCXtPYEjY_eiqNVU-9Nk_5mns4YWrwvwevo4Gp2ETch3d2TjpS3lGyOmYVL6T9cBFPGX7lwhlIYRIt6VeEnXcHmtRopU965f-mfJxtQ1yvzY9HZx5n9LGwpkK3f2UOL9U8plxx0gKcJ5NJYuV2LFo5NhAF77PgBC6-mjW2IoU50Qjktf-AvVYEO1Tc72pUukaaMtlY6dr-dRfWBT9_f6_6TkU=w1239-h929-no" style="width:100%" onclick="onClick(this)" alt="What a beautiful day!">
-      </div>
     </div>
+    <div class="column">
+        <img src="https://lh3.googleusercontent.com/h6c0Z05QdOEqESYIxA5dVM_q_hXlZnIiJwX4Zt6nw8-nP6I9glhp3w6ZbGS3jdGsGjMT0JDz9BzCUca5NpoYrPcT1sK0_V8VzkPyJD_sqCs6r0tGFEmxqwa-GE-ryjcp8H8OVxKJBBhm2NoJxcZE-M_kIXe4uQ9DuPQiucRR9_8mkKkCxzADcbdnKoLMtumc-9CI8q6Hk5rycIh06LOd9JPE9iAHWgd2HilzNGAUvQlHkhscj8M5y7afoMRErGoIWYfUYo0kqAsuxCJReuNBCXZYOyTAuB4-VkENSHBFyKBDdKIdSOR4FcjAJaCKFQkGb_zh0IDXxbk6Rg8H4ImUky7WrIjIvkhPIJzWx88kDGjo7LMlqoPkLrHC5AMfA6VmuzyjLydvBVTmBB_7eYbvKJT1NLvYhWg6MTSsaRkmL_hiCP5VeakMU4ag13RKEe7Zhb6w8bgdlCPsTFcpGoX96dBqHgQqnO0CgzxcULF6GhTl8hnddZYen8aqrgSl5DNdFLCmFNw5AZDjp8oco2urn7A6aPKaYls4b3gWGVT7wHVm-bc899vy2Mr3gLkwar6_l_vDyC6MVzHLgoRouCznqq0NCgObL8I2KYEkMDo=w1239-h929-no" style="width:100%" onclick="onClick(this)" alt="A boy surrounded by beautiful nature">
+        <img src="https://lh3.googleusercontent.com/_dO8JgeTbrir5XqAorjk7HRbV47pOakkmxqdjBcMl28l_cijajy3IM6FPkHzNR7NFtvYyymVvUcYONLjf50ALsEg9TGvNKH_7_r2oVXy6vsom6-xUSIlqdRplUHvoYVKUw2nXsYgAOgGwZbvgw7c95cnJF2jYrXZCVNr2wMX4L0vtMJChxdrb_kIXLyz88-bmk_CYNGcq2OXVwHLW1NjdwXUlCApS397qydmi_8t-_I5la5SIEq-y-Edv1ne-S7lQaOWdqXYu-yvR89gK5cj5tIL-GNLIx-RVqBAWYQ0U-LLvW_7aYyjqBheV8a0NL6k6edsRrWPf3kWo3InKDXrijSZ5aTpaSCFe_-R9PKt6H4eKWwIE-xxwQGpq6NCk2lHEraf3rT9IqhmTtkOgD7ZRl6VCIK0Ept03jlfBU-3zb-VLfyGfHtB4xgp3OcpiY2LUjybLe9H2SDix7R4sDHi0ZhNIYxn77JXiDy566pk0vG_42ulTa5Hm5NAgUHwXIQKgTc89cpyReHYhW5-WqXXyrxv8-4f_6AkS2XJUh_RoKjUjdISy3xcWMd9Jnv4iXA7bq5bwM0T-GdMNBlFcVrey2rqAsTIgja1tNYSzk4=w1239-h929-no" style="width:100%" onclick="onClick(this)" alt="What a beautiful scenery this sunset">
+        <img src="https://lh3.googleusercontent.com/1Srhj5omcnQJarrTXdHAo3CfZo7JJe4_-iJyKhAE9QAq0xrxUzWm1KEiXlxvy9Mka0GV3cmKlkE5f9OO_YMB-JZxdQZllOwLvEd4vU84qYdedL_MN0WfIsl1nvA6ersvOcNw7Am40MfESwRMhvP2UZCrzBvfGaoEDt09vDqI36WsIyKA-yesSg6711czawYA4AXZCq-uj20TqspVmXTDoKdquRj1Mjorp8NCcoV8Lru-5FZA2VuinmgGuRk9hqmbuUrFP2wT-KO99vAWKckXL1JJYF7VOeg_xDyc5uTBuavT5HeO9LS8LcpIKhNrE6URLT2RsHQ8faCPHI5R9sxmAYVcfuraNDanp4YOLbCtWnAXC7MjwrJQtavmVlUYGKoNvUSgVR1oniuLx-xZu65jp6e-6nsD3KGA-5MFUmb0jCFfsaObKXZQccGk6EBnc15duVD65caDwhqGSNZtEde6JuFcmcJo1ZWQHMtytvFg3rophD50LwK8UbnO0R6rfW7DZdfpzB6ojG4ZgNJzppRZzjxiLrPDxRoaOFi-jbDAx21_YWjR0T1t5bCin2iaosDUYQiqNVovCrhvei2ss4IDdcaYU-X33Rp3V-za3lc=w1239-h929-no" style="width:100%" onclick="onClick(this)" alt="The Beach. Me. Alone. Beautiful">
+    </div>
+    <div class="column">
+        <img src="https://lh3.googleusercontent.com/h6c0Z05QdOEqESYIxA5dVM_q_hXlZnIiJwX4Zt6nw8-nP6I9glhp3w6ZbGS3jdGsGjMT0JDz9BzCUca5NpoYrPcT1sK0_V8VzkPyJD_sqCs6r0tGFEmxqwa-GE-ryjcp8H8OVxKJBBhm2NoJxcZE-M_kIXe4uQ9DuPQiucRR9_8mkKkCxzADcbdnKoLMtumc-9CI8q6Hk5rycIh06LOd9JPE9iAHWgd2HilzNGAUvQlHkhscj8M5y7afoMRErGoIWYfUYo0kqAsuxCJReuNBCXZYOyTAuB4-VkENSHBFyKBDdKIdSOR4FcjAJaCKFQkGb_zh0IDXxbk6Rg8H4ImUky7WrIjIvkhPIJzWx88kDGjo7LMlqoPkLrHC5AMfA6VmuzyjLydvBVTmBB_7eYbvKJT1NLvYhWg6MTSsaRkmL_hiCP5VeakMU4ag13RKEe7Zhb6w8bgdlCPsTFcpGoX96dBqHgQqnO0CgzxcULF6GhTl8hnddZYen8aqrgSl5DNdFLCmFNw5AZDjp8oco2urn7A6aPKaYls4b3gWGVT7wHVm-bc899vy2Mr3gLkwar6_l_vDyC6MVzHLgoRouCznqq0NCgObL8I2KYEkMDo=w1239-h929-no" style="width:100%" onclick="onClick(this)" alt="A boy surrounded by beautiful nature">
+        <img src="https://lh3.googleusercontent.com/_dO8JgeTbrir5XqAorjk7HRbV47pOakkmxqdjBcMl28l_cijajy3IM6FPkHzNR7NFtvYyymVvUcYONLjf50ALsEg9TGvNKH_7_r2oVXy6vsom6-xUSIlqdRplUHvoYVKUw2nXsYgAOgGwZbvgw7c95cnJF2jYrXZCVNr2wMX4L0vtMJChxdrb_kIXLyz88-bmk_CYNGcq2OXVwHLW1NjdwXUlCApS397qydmi_8t-_I5la5SIEq-y-Edv1ne-S7lQaOWdqXYu-yvR89gK5cj5tIL-GNLIx-RVqBAWYQ0U-LLvW_7aYyjqBheV8a0NL6k6edsRrWPf3kWo3InKDXrijSZ5aTpaSCFe_-R9PKt6H4eKWwIE-xxwQGpq6NCk2lHEraf3rT9IqhmTtkOgD7ZRl6VCIK0Ept03jlfBU-3zb-VLfyGfHtB4xgp3OcpiY2LUjybLe9H2SDix7R4sDHi0ZhNIYxn77JXiDy566pk0vG_42ulTa5Hm5NAgUHwXIQKgTc89cpyReHYhW5-WqXXyrxv8-4f_6AkS2XJUh_RoKjUjdISy3xcWMd9Jnv4iXA7bq5bwM0T-GdMNBlFcVrey2rqAsTIgja1tNYSzk4=w1239-h929-no" style="width:100%" onclick="onClick(this)" alt="What a beautiful scenery this sunset">
+        <img src="https://lh3.googleusercontent.com/1Srhj5omcnQJarrTXdHAo3CfZo7JJe4_-iJyKhAE9QAq0xrxUzWm1KEiXlxvy9Mka0GV3cmKlkE5f9OO_YMB-JZxdQZllOwLvEd4vU84qYdedL_MN0WfIsl1nvA6ersvOcNw7Am40MfESwRMhvP2UZCrzBvfGaoEDt09vDqI36WsIyKA-yesSg6711czawYA4AXZCq-uj20TqspVmXTDoKdquRj1Mjorp8NCcoV8Lru-5FZA2VuinmgGuRk9hqmbuUrFP2wT-KO99vAWKckXL1JJYF7VOeg_xDyc5uTBuavT5HeO9LS8LcpIKhNrE6URLT2RsHQ8faCPHI5R9sxmAYVcfuraNDanp4YOLbCtWnAXC7MjwrJQtavmVlUYGKoNvUSgVR1oniuLx-xZu65jp6e-6nsD3KGA-5MFUmb0jCFfsaObKXZQccGk6EBnc15duVD65caDwhqGSNZtEde6JuFcmcJo1ZWQHMtytvFg3rophD50LwK8UbnO0R6rfW7DZdfpzB6ojG4ZgNJzppRZzjxiLrPDxRoaOFi-jbDAx21_YWjR0T1t5bCin2iaosDUYQiqNVovCrhvei2ss4IDdcaYU-X33Rp3V-za3lc=w1239-h929-no" style="width:100%" onclick="onClick(this)" alt="The Beach. Me. Alone. Beautiful">
+
+    </div>
+  </div>
 
   <!-- Modal for full size images on click-->
   <div id="modal01" class="w3-modal w3-black" style="padding-top:0" onclick="this.style.display='none'">
@@ -143,8 +178,6 @@ and is wrapped around the whole page content, except for the footer in this exam
 
 <!-- Footer -->
 <footer class="w3-container w3-dark-grey w3-padding-32 w3-margin-top">
-  <button class="w3-button w3-black w3-disabled w3-padding-large w3-margin-bottom">Previous</button>
-  <button class="w3-button w3-black w3-padding-large w3-margin-bottom">Next &raquo;</button>
   <p> Content owned by Nathan ANTONI</p>
 </footer>
 <script type="text/javascript" src="https://platform.linkedin.com/badges/js/profile.js" async defer></script>

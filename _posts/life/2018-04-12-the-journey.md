@@ -23,7 +23,8 @@ class _HID:
         return ret
 
     @staticmethod
-    # Read the hex dump of the HID given by hidraw_number and return it as a string
+    # Read the hex dump of the HID given by hidraw_number and
+    # return it as a string
     def read(hidraw_number):
         dev = os.open("/dev/hidraw" + str(hidraw_number), os.O_RDONLY)
         data = os.read(dev, 6)

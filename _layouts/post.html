@@ -4,12 +4,15 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="/assets/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<link rel="shortcut icon" type="image/x-icon" href="/assets/favicon.ico?">
 <style>
-body,h1,h2,h3,h4,h5 {font-family: "Raleway", sans-serif}
+h1,h2,h3,h4,h5 {font-family: 'Raleway', sans-serif;}
 body, html {
     height: 100%;
     line-height: 1.8;
+    font-family: 'Open Sans', sans-serif;
 }
 
 }
@@ -29,11 +32,22 @@ and is wrapped around the whole page content, except for the footer in this exam
 <!-- Grid -->
 <div class="w3-row">
 
+  <!-- Image -->
+  <div class="w3-container w3-large w3-margin-left w3-padding-16">
+    <img src="{{ page.img }}" style="width:100%">
+  </div>
+
+
 <!-- Post content -->
-<div class="w3-col l8 s12">
-  <p>
-    {{ page.content }}
-  </p>
+<div class="w3-col l8 m12 s12">
+
+  <!-- <div class="w3-container w3-large w3-margin-left">
+    <div class="w3-left-align"><p>{{ page.description }}</p></div>
+  </div> -->
+
+  <div class="w3-container w3-large w3-margin-left" >
+    <div class="w3-left-align" style="margin: 0 25px"><p>{{ page.content }}</p></div>
+  </div>
 <!-- END POST CONTENT -->
 </div>
 

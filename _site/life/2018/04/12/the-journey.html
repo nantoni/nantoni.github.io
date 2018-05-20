@@ -34,46 +34,21 @@ and is wrapped around the whole page content, except for the footer in this exam
 
   <!-- Image -->
   <div class="w3-container w3-large w3-margin-left w3-padding-16">
-    <img src="https://lh3.googleusercontent.com/mNeKLg6JxfkxNK32H3s0ykeBkjuijF0O2M2jiAb5FY75jyJJ9slNwF0YVZM8SpBjVFoxle-tMXyK5f41aEvm2gkazMSzjH7jxJTq_1cQlf5wZD2cynvmXQP6yzaXVZawMadYX1SkUOoiyubNI8-2KKvlv2CYoN8wIcowIXu7TdO-ksznKRIuK19SBcmBALSdti7O6syCu2FVQNU6Yahv4C4wEMC7AiIKAo12Viqt5WW4lsaAnTX_59H_AilcYd84O7CMh-fvMUlcYu2LB8-vDQlIb6rjWiwR7uWR_UaGArj9TOuNny1fm4IY3P1ssDCb8QeJ50rLFa71AlV1dBJHKa_TbjP1XLvpZgn0ALOMM_qyRMgET1ebLK4GYOgO_DVBLlB2Uv9_jnGFx4yWQGjDrSfuPnpD94Tmg48f55RecsbDniiaUJCIGlBpPJfAFVPZy2xkWd3kQLqv8BnAGKNnMdzIIJPdX2Z6WN9mlYO3J5Ctl3_SJOvv3A-B5v_ej0E69CKKTI7nsreM08Y-RsO95A4rjVBOAWfqsxYaw_TU9dM_Fb_z3dTMSNOKfIKA6XOMXLv2D-2RWrtXRtWWhc7jkQicW5PvSDxAiwn4Fts=w1239-h929-no" style="width:100%">
+    <img src="https://lh3.googleusercontent.com/GxvMH8-q48kDU9I05-IxwCxshcNDyRUnUUIrA5-gk54YtS9V3tAdmM1ndbkfuU9dqMXIrwFwMLLmG2MigAmsu8a0fr_ikK6ZQMrktJiOLTYzFNO_ip-jAdRwLaGgvgL5tOu0gxCVCucFZCf5kOv0fEyY0i6Zl1iu28m9VuC7haY2dBOMjsSgWyWCO57uPHUYtiOINwTCT2qlGc7ZK8bm9naqCbo10Q4DwzxRAtVAo4vdw6pntGoCykotkU_IY5Ts5jLbZoLJLF4-Hdw9zN6CSIEesoa4XF1a9v5PurJ8vDiZExpq1TLchznLFLVH0iYjozVom4ch6bmQ8k_Elljbwnb1F6kgOCghCb4V1f5XehjvZ0GNyW4FX6NGj-J5TzHkFFsYUL43rQ-nkZrzxPiIzoj6E--niW_Gkfk0iwMGjpaPWfDO9wtx3ZcItMP3zHhuqR4UoZ49-VzyMjCDQn3it9TJbXeYPuq0jGpdTrue5qLddoUNwkW5SA8xeDBnCZhKbnsmOkmaXX6DKeIEznOAJxAbmdxlJwb40IGCoZhN2Z6jJ_-mAk56Xej_f7-Ekx30tKPdNvIn6wsDAJGJF_eJKrm1KcXt5aCg_jJ6KVM=w697-h929-no" style="width:100%">
   </div>
-
 
 <!-- Post content -->
 <div class="w3-col l8 m12 s12">
 
-  <!-- <div class="w3-container w3-large w3-margin-left">
-    <div class="w3-left-align"><p></p></div>
-  </div> -->
-
   <div class="w3-container w3-large w3-margin-left" >
-    <div class="w3-left-align" style="margin: 0 25px"><p><p>We had a great trip</p>
+    <div class="w3-left-align" style="margin: 0 25px"><p><p>We departed from strasbourg at around 8:00 in the morning</p>
 
-<p>This is code we did develop:</p>
-
-<figure class="highlight"><pre><code class="language-python" data-lang="python"><span class="c"># Basic I/O with HID</span>
-<span class="k">class</span> <span class="nc">_HID</span><span class="p">:</span>
-    <span class="nd">@staticmethod</span>
-    <span class="c"># Write the data buffer to the HID given by hidraw_number</span>
-    <span class="k">def</span> <span class="nf">write</span><span class="p">(</span><span class="n">hidraw_number</span><span class="p">,</span> <span class="n">data</span><span class="p">):</span>
-        <span class="n">dev</span> <span class="o">=</span> <span class="n">os</span><span class="o">.</span><span class="nb">open</span><span class="p">(</span><span class="s">"/dev/hidraw"</span> <span class="o">+</span> <span class="nb">str</span><span class="p">(</span><span class="n">hidraw_number</span><span class="p">),</span> <span class="n">os</span><span class="o">.</span><span class="n">O_WRONLY</span><span class="p">)</span>
-        <span class="n">ret</span> <span class="o">=</span> <span class="n">os</span><span class="o">.</span><span class="n">write</span><span class="p">(</span><span class="n">dev</span><span class="p">,</span> <span class="n">data</span><span class="p">)</span>
-        <span class="n">os</span><span class="o">.</span><span class="n">close</span><span class="p">(</span><span class="n">dev</span><span class="p">)</span>
-        <span class="k">return</span> <span class="n">ret</span>
-
-    <span class="nd">@staticmethod</span>
-    <span class="c"># Read the hex dump of the HID given by hidraw_number and return it as a string</span>
-    <span class="k">def</span> <span class="nf">read</span><span class="p">(</span><span class="n">hidraw_number</span><span class="p">):</span>
-        <span class="n">dev</span> <span class="o">=</span> <span class="n">os</span><span class="o">.</span><span class="nb">open</span><span class="p">(</span><span class="s">"/dev/hidraw"</span> <span class="o">+</span> <span class="nb">str</span><span class="p">(</span><span class="n">hidraw_number</span><span class="p">),</span> <span class="n">os</span><span class="o">.</span><span class="n">O_RDONLY</span><span class="p">)</span>
-        <span class="n">data</span> <span class="o">=</span> <span class="n">os</span><span class="o">.</span><span class="n">read</span><span class="p">(</span><span class="n">dev</span><span class="p">,</span> <span class="mi">6</span><span class="p">)</span>
-        <span class="n">os</span><span class="o">.</span><span class="n">close</span><span class="p">(</span><span class="n">dev</span><span class="p">)</span>
-        <span class="k">return</span> <span class="n">data</span><span class="o">.</span><span class="n">encode</span><span class="p">(</span><span class="s">"hex"</span><span class="p">)</span></code></pre></figure>
-
-<p><strong>Higlight</strong>
-<em>Italyc</em></p>
+<p>We had a great trip</p>
 </p></div>
   </div>
-<!-- END POST CONTENT -->
+
 </div>
+
 
 <!-- Introduction menu -->
 <div class="w3-col l4">
@@ -135,12 +110,13 @@ and is wrapped around the whole page content, except for the footer in this exam
 <!-- END w3-content -->
 </div>
 
-<!-- Footer -->
-<footer class="w3-container w3-dark-grey w3-padding-32 w3-margin-top">
-  <button class="w3-button w3-black w3-disabled w3-padding-large w3-margin-bottom">Previous</button>
-  <button class="w3-button w3-black w3-padding-large w3-margin-bottom">Next &raquo;</button>
+
+  <footer class="w3-grid w3-container w3-dark-grey w3-padding-32 w3-margin-top">
   <p> Content owned by Nathan ANTONI</p>
 </footer>
+
+
+
 <script type="text/javascript" src="https://platform.linkedin.com/badges/js/profile.js" async defer></script>
 </body>
 </html>

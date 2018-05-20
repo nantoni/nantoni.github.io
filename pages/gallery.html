@@ -1,23 +1,8 @@
 ---
+layout: default
 ---
 
-
-<!DOCTYPE html>
-<html>
-<title> {{ site.title }}</title>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="/assets/w3.css">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
-<link rel="shortcut icon" type="image/x-icon" href="/assets/favicon.ico?">
 <style>
-h1,h2,h3,h4,h5 {font-family: 'Raleway', sans-serif;}
-body, html {
-    height: 100%;
-    line-height: 1.8;
-    font-family: 'Open Sans', sans-serif;
-}
 
 * {
     box-sizing: border-box;
@@ -41,6 +26,22 @@ body, html {
     vertical-align: middle;
 }
 
+.image {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .2s ease;
+}
+
+.image:hover{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)
+}
+
+.container:hover .image {
+  cursor: pointer;
+}
+
 /* Responsive layout - makes a two column-layout instead of three columns */
 @media (max-width: 800px) {
     .column {
@@ -57,11 +58,6 @@ body, html {
     }
 }
 </style>
-<body class="w3-pale-grey">
-
-<!-- w3-content defines a container for fixed size centered content,
-and is wrapped around the whole page content, except for the footer in this example -->
-<div class="w3-content" style="max-width:1400px">
 
 <!-- Header -->
 <header class="w3-container w3-center w3-padding-32">
@@ -82,107 +78,54 @@ and is wrapped around the whole page content, except for the footer in this exam
   <div class="w3-hide-large" style="margin-top:83px"></div>
 
   <!-- Photo Grid -->
-  <!-- <div class="row" >
+  <div class="row" >
     <div class="column">
-        <img src="https://lh3.googleusercontent.com/uHMuHEXjwd9UEcO7WLDjAhXfv-nMZOcwA8g6G20f1q5C85gPGRk6yB5mEbIbkZaKgCKrXsQsbLLTZu_R3g667kvSV0kZbrOcp3YvFwkhKkX7hrqNMl0sE8dUtiGS9cwqPZGjcUMjFPd07ewZKq6gVhttRRrZBB_n6wy1FFVDmS4Vb7xe9yyvT7pU3kaWNrHdAE2m2ryMzDkA5EdqUAHn_PAqgHUlupytJz8nXkItxzVROBDzSpaf1ZgTxT-OOTiYChJFAoPsiZ3zcyAbwFhAAKiBI3xPQodeQwZaGnoB8nRppaIPTphx__FCom7ZFWwx71jUhd5ysCH-kRyE1j7-o2EZ3-oiYFlNEbeeQzsoLPgsaS7qYsIzHD1ENmFRDYTKq2q0apZC-CKdxqbCXtPYEjY_eiqNVU-9Nk_5mns4YWrwvwevo4Gp2ETch3d2TjpS3lGyOmYVL6T9cBFPGX7lwhlIYRIt6VeEnXcHmtRopU965f-mfJxtQ1yvzY9HZx5n9LGwpkK3f2UOL9U8plxx0gKcJ5NJYuV2LFo5NhAF77PgBC6-mjW2IoU50Qjktf-AvVYEO1Tc72pUukaaMtlY6dr-dRfWBT9_f6_6TkU=w1239-h929-no" style="width:100%" onclick="onClick(this)" alt="A boy surrounded by beautiful nature">
-        <img src="https://lh3.googleusercontent.com/18eVtcVpgMzj2uX7wNsvCGWwLHXad1CRLlSNlpmMuyU93Ww1K79f4Q2Y14XjfmvOjFzyeLxgZWfZ_sUGS8oGPawiKmTe_JuhA7UZWSPyCh1QSACjf6lh55F176db2GtX3Hkk-FcR79yhDm3upYqe7deTdFlMWs3CZ7-4nPUMf1Grpv9-8UbpE5BIYFDqBh4nvZ9iMceWsqSVzfGSi3vO3zlfh3WAJ6-QIhaSo0a9IldormJ7j7XIMYSRJNaFCvZBUNOVHffLppAEo4CcOP3noBR8zpF85iROwL_s-tqkl0KhM77Pmf_8IcqsiRLeNztUzhvcOSp5qTuiPN3DN6eu6J7ZZnkqJ1wL6Bc_iM0d8k9v_cVRyywyoy0Mc_mUZFfryqaPfqEM02NAZqc_Ngy8LlAEnBqNLVpQ248WTavlK7N3dEGI0uqgGCx69B4GssQdRXL4lFV-29g8vGS-n-BXtaFbd08eQsrDv_UI6cB8aQfaUhjQiYFJVHcv8OVBk3q8UJKHhas2xiOITtxGXbmXKMTClJqku_fepFwKd5dTEwB6jtPnNjgdMOFlrbetI9JSyowGlwyQn_LedF7TeitmfiQlluJM_RGOKF0A0Ao=w1239-h929-no" style="width:100%" onclick="onClick(this)" alt="What a beautiful scenery this sunset">
-        <img src="https://lh3.googleusercontent.com/GSe6esyegq0rdmYGMCFYWrOV1HNOoPyRQuNTM7S4CQJF_KrVl8LpFL4JrXeWN-hsYfQjZhGlRclEA8McVfE9twf0yFVvPPI_mfaBw015jh7ifi3nxORfFP6dYSlaY08nGg8I0zOwHbMcjHx5cHWzv81uPgB23KBVmZ6cMBkQr-CSiylRvyggdn6MwGTsjarXwTXhm4CI5cidxbnDLlK4C313QJxNMal6ukicnFYvz3OI7WPM6kNKR_9UC5ipS1p88oKcb00yr9J_mksBLqyC-TbsGt3MIn5Wt7IObnQ4QNzmjRaPgwOVXjRYSL8ZbBUYdPHvNTz8vtpGkQdczFOu-Yirx_ISYkJwWrhfUEI6CXqyZhrTrjb9wfhNeuHLWQCyWOtSgwt9_84FkfjiioBTnX9uDI-zn7iMbct3ctjrFYhPhN_EYsA2_34Qzu9agvrVrwQpQfknNPM1O_JPne0PjuFbNQjEFwgR5yma7sLK-yS4j5EfLyUJkp1VUohzRKgzfUQh_O7qhMdlH9tlYCX7QZcLLH8rFG7S7u88ir5guQi2sEmfIk2l1nf2w9xQhuZOXUTirs4VIh-PWm3ZHTrCf-y4IAlDyuaj9bmOOuQ=w1239-h929-no" style="width:100%" onclick="onClick(this)" alt="The Beach. Me. Alone. Beautiful">
-        <img src="https://lh3.googleusercontent.com/uHMuHEXjwd9UEcO7WLDjAhXfv-nMZOcwA8g6G20f1q5C85gPGRk6yB5mEbIbkZaKgCKrXsQsbLLTZu_R3g667kvSV0kZbrOcp3YvFwkhKkX7hrqNMl0sE8dUtiGS9cwqPZGjcUMjFPd07ewZKq6gVhttRRrZBB_n6wy1FFVDmS4Vb7xe9yyvT7pU3kaWNrHdAE2m2ryMzDkA5EdqUAHn_PAqgHUlupytJz8nXkItxzVROBDzSpaf1ZgTxT-OOTiYChJFAoPsiZ3zcyAbwFhAAKiBI3xPQodeQwZaGnoB8nRppaIPTphx__FCom7ZFWwx71jUhd5ysCH-kRyE1j7-o2EZ3-oiYFlNEbeeQzsoLPgsaS7qYsIzHD1ENmFRDYTKq2q0apZC-CKdxqbCXtPYEjY_eiqNVU-9Nk_5mns4YWrwvwevo4Gp2ETch3d2TjpS3lGyOmYVL6T9cBFPGX7lwhlIYRIt6VeEnXcHmtRopU965f-mfJxtQ1yvzY9HZx5n9LGwpkK3f2UOL9U8plxx0gKcJ5NJYuV2LFo5NhAF77PgBC6-mjW2IoU50Qjktf-AvVYEO1Tc72pUukaaMtlY6dr-dRfWBT9_f6_6TkU=w1239-h929-no" style="width:100%" onclick="onClick(this)" alt="A boy surrounded by beautiful nature">
-
+      <div class="container">
+                            <img class="w3-margin-top image" src="https://lh3.googleusercontent.com/xB_JC9w1nUkWTs6YPwb__JB2ZoNYnt6uNhFQbBkWfNuN9yjw5Mx6USjztD3R-HbcxHqYboMm9W6I1RMUeK3QdSJJ9ikTXxCSxWrUCkUlNnz5QadQVXp2bU6OEuw_A30i9pJ50xNvGYiY-PVtf9Or7tDHAMkhw8fyAHgEmN7DbQASbD6oC8xf7lRUsMf7zq7ClzsQOkw2rdH2AE2_1sWfPkTNvQBVSPBDQrzLd7kuk_NYnqe8_1E0ePyyyF3bOEXZk_UgjVodprTuC_4KlW7WPdDl6YaoHdz39-9FofSDh7FnEmmRitp6DYjZ1WnQZgcqvR-6mM_nYVs6HQ_b0XNDZ8xwD33E54KKdGtuNYvHhhEdHKV6JLnrT6xMQ8O5l8I5Z2sMm2mOK6geOvDrmLN2d07koDtph_yyH7W8CidkLJIgaLYB588LgYGzQfDSFSgXQWaZ-BFx42N2jvn4I5K4LA6czd-x1YTZlGa-OI8Wp6ACi6z20qbrTWo_XtBwXwB1kZULv-TdVec-XfxosfSqlH-2SoZ52ATGSGCQ-k0-fSJ0AFeNX9uLsbvxEAUgV6xJg8StumoiqiDUBNBzilIiTSSqS27MXybVGb4GYWc=w1239-h929-no
+" style="width:100%" onclick="onClick(this)" alt="Françoi's and i desks 
+">
+                      </div><div class="container">
+                            <img class="w3-margin-top image" src="https://lh3.googleusercontent.com/bwJZF9-jCu_kVuIeVCzjNR5dTkIK6CkbVofNQKpXsugv4GlEWK391EMmkEUT1hhis-hh16UUyCszK-MjqFHImM_WsY69-lSRkb-D3Ly5by6bJBJjtDt-i7G-HOwLTWvhO0N1kfR0JDHyz_pYreXzFS5-XM5G117DYRULUtfb-M-PV-jHl0grVNHjkaD-Rg-6F76tx9bhVWOHb6amjy7ZbrfjVuerbDud28vpOvjiVST7oMU_zM_aJRT0c9Qxpi3uepmo9DEG8imdKqorPtjZHJ9h7e9f-fS5cR6bpQpqu1E1GdVTiQ8z4oo8Cm2go3QtwicGvYQe_x-mwqsPUna_hhoP5hHFr9WXC0E1JdtfcbjgmpyksIqz521rt7_wtJBwSs0jLUQgRxxR-vY4e1CjRNob8Cc1yD2_cSVfSsv2ZEPdOzzTP2uGu-PzRz6gJNbuvpDhRdiclJBp6R6HpslKYTcJMUx-89ut-ZGPCUDb2aTFQzUVv6AcUrYnKSN-bEFmgy6tvVWaqHlZmtV_-axxn4N3ffTMnw9HE9IhqVs-1GCIc3pxYjlP6u1ZHHT5ITULkKpIeFdCY1VQd2vfhV0cuqhITHcaGjU4AGxrjYM=w1239-h929-no
+" style="width:100%" onclick="onClick(this)" alt="Bucharest's hostel room
+">
+                      </div>
     </div>
-    <div class="column">
-        <img src="https://lh3.googleusercontent.com/h6c0Z05QdOEqESYIxA5dVM_q_hXlZnIiJwX4Zt6nw8-nP6I9glhp3w6ZbGS3jdGsGjMT0JDz9BzCUca5NpoYrPcT1sK0_V8VzkPyJD_sqCs6r0tGFEmxqwa-GE-ryjcp8H8OVxKJBBhm2NoJxcZE-M_kIXe4uQ9DuPQiucRR9_8mkKkCxzADcbdnKoLMtumc-9CI8q6Hk5rycIh06LOd9JPE9iAHWgd2HilzNGAUvQlHkhscj8M5y7afoMRErGoIWYfUYo0kqAsuxCJReuNBCXZYOyTAuB4-VkENSHBFyKBDdKIdSOR4FcjAJaCKFQkGb_zh0IDXxbk6Rg8H4ImUky7WrIjIvkhPIJzWx88kDGjo7LMlqoPkLrHC5AMfA6VmuzyjLydvBVTmBB_7eYbvKJT1NLvYhWg6MTSsaRkmL_hiCP5VeakMU4ag13RKEe7Zhb6w8bgdlCPsTFcpGoX96dBqHgQqnO0CgzxcULF6GhTl8hnddZYen8aqrgSl5DNdFLCmFNw5AZDjp8oco2urn7A6aPKaYls4b3gWGVT7wHVm-bc899vy2Mr3gLkwar6_l_vDyC6MVzHLgoRouCznqq0NCgObL8I2KYEkMDo=w1239-h929-no" style="width:100%" onclick="onClick(this)" alt="A boy surrounded by beautiful nature">
-        <img src="https://lh3.googleusercontent.com/_dO8JgeTbrir5XqAorjk7HRbV47pOakkmxqdjBcMl28l_cijajy3IM6FPkHzNR7NFtvYyymVvUcYONLjf50ALsEg9TGvNKH_7_r2oVXy6vsom6-xUSIlqdRplUHvoYVKUw2nXsYgAOgGwZbvgw7c95cnJF2jYrXZCVNr2wMX4L0vtMJChxdrb_kIXLyz88-bmk_CYNGcq2OXVwHLW1NjdwXUlCApS397qydmi_8t-_I5la5SIEq-y-Edv1ne-S7lQaOWdqXYu-yvR89gK5cj5tIL-GNLIx-RVqBAWYQ0U-LLvW_7aYyjqBheV8a0NL6k6edsRrWPf3kWo3InKDXrijSZ5aTpaSCFe_-R9PKt6H4eKWwIE-xxwQGpq6NCk2lHEraf3rT9IqhmTtkOgD7ZRl6VCIK0Ept03jlfBU-3zb-VLfyGfHtB4xgp3OcpiY2LUjybLe9H2SDix7R4sDHi0ZhNIYxn77JXiDy566pk0vG_42ulTa5Hm5NAgUHwXIQKgTc89cpyReHYhW5-WqXXyrxv8-4f_6AkS2XJUh_RoKjUjdISy3xcWMd9Jnv4iXA7bq5bwM0T-GdMNBlFcVrey2rqAsTIgja1tNYSzk4=w1239-h929-no" style="width:100%" onclick="onClick(this)" alt="What a beautiful scenery this sunset">
-        <img src="https://lh3.googleusercontent.com/1Srhj5omcnQJarrTXdHAo3CfZo7JJe4_-iJyKhAE9QAq0xrxUzWm1KEiXlxvy9Mka0GV3cmKlkE5f9OO_YMB-JZxdQZllOwLvEd4vU84qYdedL_MN0WfIsl1nvA6ersvOcNw7Am40MfESwRMhvP2UZCrzBvfGaoEDt09vDqI36WsIyKA-yesSg6711czawYA4AXZCq-uj20TqspVmXTDoKdquRj1Mjorp8NCcoV8Lru-5FZA2VuinmgGuRk9hqmbuUrFP2wT-KO99vAWKckXL1JJYF7VOeg_xDyc5uTBuavT5HeO9LS8LcpIKhNrE6URLT2RsHQ8faCPHI5R9sxmAYVcfuraNDanp4YOLbCtWnAXC7MjwrJQtavmVlUYGKoNvUSgVR1oniuLx-xZu65jp6e-6nsD3KGA-5MFUmb0jCFfsaObKXZQccGk6EBnc15duVD65caDwhqGSNZtEde6JuFcmcJo1ZWQHMtytvFg3rophD50LwK8UbnO0R6rfW7DZdfpzB6ojG4ZgNJzppRZzjxiLrPDxRoaOFi-jbDAx21_YWjR0T1t5bCin2iaosDUYQiqNVovCrhvei2ss4IDdcaYU-X33Rp3V-za3lc=w1239-h929-no" style="width:100%" onclick="onClick(this)" alt="The Beach. Me. Alone. Beautiful">
+  <div class="column">
+    <div class="container">
+                            <img class="w3-margin-top image" src="https://lh3.googleusercontent.com/LENWxV71NU4xbtC5BESvcsLJICXrOFCVF3FV20Eti127EbsBtjPU1TRyMmawRfB3vWO8HmFJPNEeYSwuQPmyn53on1CJWiPsNHKbGoOdJz73tIlLIFtWt6C99W9hJX35xQHBV4P8M5SY05R4n-dvlfDmvUZsQTEhfdinY3Ip7Gjvkqzd1mJ0gbbrgx_gB96XS3cyViMBWFNsQpg9TcsoZ0oPvpa_q3EdjZq_mI0xKCSQZ1XfExf-U0nL2Q9PXso1Qzq8pu0lGTjdX7n0dREVe5o0rY-tT3S4zY1aJGJxtTMs60BaH2YhVOyD8MlwPtI9P_mKiSNB2h-35Bfc6C04v086wOv3MzUQVrbc89UHT0S7KkgR8EmgpL0ujSnNgxXR6ny8vTw20_vcx7v0q4A5BVKMmQdLNdXK_riEazG_lS19Dq60B-I2pTX_jVb2nLARBjEN6ue-bZw2J_yzR614_sQg03A4C5X8FAsQ66R0T4m5I7QfGd2d8ZJJd36eVMku18-CCMejrP4yisX2r7ZMlKqVh0LzRdPQU-t6HodTdhIiC3AukoPNW_vjRR6u5wiiTHmEeUvUvYZosIqqAeHcQHLxSL6_dJFHV9hmWg8=w697-h929-no
+" style="width:100%" onclick="onClick(this)" alt="The student hall we're staying during 2,5 months
+">
+                      </div><div class="container">
+                            <img class="w3-margin-top image" src="https://lh3.googleusercontent.com/zAbaK9ZogUP5QvC8vxZQm9tTxdDzcmFE1p21te2URo_TEz1F-I7dzOy5z6yOAIa-_7XvuuZuFTmxP66Av5Zbgf7f666hnVKARTVp9DCEm9fFXaRGUbrKucLqik9_3B4SALr7LPLP1p8omQBkkHgwJ3hLNOcDt4Vpy0bj52y3F-82YskkttrUVM9a28v9IJswSi6NKVO7hPybkbHWaqYAADw2Geeky4Zcsd64PsyBx5PUml6yo1G_uxyZUVnTKPPTwm1GisvV56t8jGIDqd34wX4gl7t66-caQ9T1igVt8uYjyDWTFaUXEQ4emjuEIXC5-TIdQ9ozgmWf_CMCZDyud6hgIbZ7_zAkkZfKnUJeehyjaGfSDNrIuESsuFS1ZO93lRQnNMUCkivEZag7kQfxWoxfVm4XTFavYkUPIvb0HXTH1BK5OdbvpWbfEzDu-dKpjOw3rc4fzkjBOdul5AN3HjOLv8cGw53gacWrWmG2kEOIWyxEO-0b1WDv-JIxKtL6yDcDY5pPzJ7l1gaaO_1v3zaF_OmuowGP5hPkZFzk4d4zkvBTYPNWJMkSgKgCSsBDfTws0FTS-iZP5VZ09sEnZ2jqFtZovXR4xzVmbnI=w1239-h929-no
+" style="width:100%" onclick="onClick(this)" alt="Home-like dinner
+">
+                      </div>
     </div>
-    <div class="column">
-        <img src="https://lh3.googleusercontent.com/h6c0Z05QdOEqESYIxA5dVM_q_hXlZnIiJwX4Zt6nw8-nP6I9glhp3w6ZbGS3jdGsGjMT0JDz9BzCUca5NpoYrPcT1sK0_V8VzkPyJD_sqCs6r0tGFEmxqwa-GE-ryjcp8H8OVxKJBBhm2NoJxcZE-M_kIXe4uQ9DuPQiucRR9_8mkKkCxzADcbdnKoLMtumc-9CI8q6Hk5rycIh06LOd9JPE9iAHWgd2HilzNGAUvQlHkhscj8M5y7afoMRErGoIWYfUYo0kqAsuxCJReuNBCXZYOyTAuB4-VkENSHBFyKBDdKIdSOR4FcjAJaCKFQkGb_zh0IDXxbk6Rg8H4ImUky7WrIjIvkhPIJzWx88kDGjo7LMlqoPkLrHC5AMfA6VmuzyjLydvBVTmBB_7eYbvKJT1NLvYhWg6MTSsaRkmL_hiCP5VeakMU4ag13RKEe7Zhb6w8bgdlCPsTFcpGoX96dBqHgQqnO0CgzxcULF6GhTl8hnddZYen8aqrgSl5DNdFLCmFNw5AZDjp8oco2urn7A6aPKaYls4b3gWGVT7wHVm-bc899vy2Mr3gLkwar6_l_vDyC6MVzHLgoRouCznqq0NCgObL8I2KYEkMDo=w1239-h929-no" style="width:100%" onclick="onClick(this)" alt="A boy surrounded by beautiful nature">
-        <img src="https://lh3.googleusercontent.com/_dO8JgeTbrir5XqAorjk7HRbV47pOakkmxqdjBcMl28l_cijajy3IM6FPkHzNR7NFtvYyymVvUcYONLjf50ALsEg9TGvNKH_7_r2oVXy6vsom6-xUSIlqdRplUHvoYVKUw2nXsYgAOgGwZbvgw7c95cnJF2jYrXZCVNr2wMX4L0vtMJChxdrb_kIXLyz88-bmk_CYNGcq2OXVwHLW1NjdwXUlCApS397qydmi_8t-_I5la5SIEq-y-Edv1ne-S7lQaOWdqXYu-yvR89gK5cj5tIL-GNLIx-RVqBAWYQ0U-LLvW_7aYyjqBheV8a0NL6k6edsRrWPf3kWo3InKDXrijSZ5aTpaSCFe_-R9PKt6H4eKWwIE-xxwQGpq6NCk2lHEraf3rT9IqhmTtkOgD7ZRl6VCIK0Ept03jlfBU-3zb-VLfyGfHtB4xgp3OcpiY2LUjybLe9H2SDix7R4sDHi0ZhNIYxn77JXiDy566pk0vG_42ulTa5Hm5NAgUHwXIQKgTc89cpyReHYhW5-WqXXyrxv8-4f_6AkS2XJUh_RoKjUjdISy3xcWMd9Jnv4iXA7bq5bwM0T-GdMNBlFcVrey2rqAsTIgja1tNYSzk4=w1239-h929-no" style="width:100%" onclick="onClick(this)" alt="What a beautiful scenery this sunset">
-        <img src="https://lh3.googleusercontent.com/1Srhj5omcnQJarrTXdHAo3CfZo7JJe4_-iJyKhAE9QAq0xrxUzWm1KEiXlxvy9Mka0GV3cmKlkE5f9OO_YMB-JZxdQZllOwLvEd4vU84qYdedL_MN0WfIsl1nvA6ersvOcNw7Am40MfESwRMhvP2UZCrzBvfGaoEDt09vDqI36WsIyKA-yesSg6711czawYA4AXZCq-uj20TqspVmXTDoKdquRj1Mjorp8NCcoV8Lru-5FZA2VuinmgGuRk9hqmbuUrFP2wT-KO99vAWKckXL1JJYF7VOeg_xDyc5uTBuavT5HeO9LS8LcpIKhNrE6URLT2RsHQ8faCPHI5R9sxmAYVcfuraNDanp4YOLbCtWnAXC7MjwrJQtavmVlUYGKoNvUSgVR1oniuLx-xZu65jp6e-6nsD3KGA-5MFUmb0jCFfsaObKXZQccGk6EBnc15duVD65caDwhqGSNZtEde6JuFcmcJo1ZWQHMtytvFg3rophD50LwK8UbnO0R6rfW7DZdfpzB6ojG4ZgNJzppRZzjxiLrPDxRoaOFi-jbDAx21_YWjR0T1t5bCin2iaosDUYQiqNVovCrhvei2ss4IDdcaYU-X33Rp3V-za3lc=w1239-h929-no" style="width:100%" onclick="onClick(this)" alt="The Beach. Me. Alone. Beautiful">
-
+  <div class="column">
+    <div class="container">
+                            <img class="w3-margin-top image" src="https://lh3.googleusercontent.com/XEdmUNK5AH4QvYWXm-iPeKJB5m0q_9p8BTTvgodsZyDNLBh7U0uIw3sLtySKk2sMT-EIdli5qdL3PV2sis8v2_GLmIkhwlWWDfpoOoOC8Uq0MIkVYa-XLi0fbhudDigwNhSNUaeMd4L-JLXtE7Wi-Q4DpfURxjvs_Lm7vhMvLYihTnOErOXUnEqeEriX4YRIQ0yLHn6xmyXB4BVDjgxWiDNxtYJ8tWKlKXjMGr0LcQ81MwZbdvprPyyxDqo25KmunbPDD9X0McEhTWxmTvzM_qz_IMmhD1aEFVAesBGHwLnsr_nVWB5quBvb2rJYE9rEI9cvxuYqGFWFAPwK_cyyyhoVx8koRvIDivpRwDEUOnzqEQeKYOEY2nKwFROEsZUFt-i7XHSvCq9COGxNBn1fZ7BseqP7UwSjPNCZyzZYzYfxl0TfcajHorpyIqjUtJbpFDZNHT38tNx9cD_KhOtvHatL-qtPoHHRk8BXwmq59vKHJgZRq51uwq5mFGlGRQ7-0q1o4ShUeM33UF7lF50Cma4j9eV0aKc3zpFJRDfgWUiSIFR7DBylRTaQ8HIU9-hIvHeL__NiK9OUAR6ql8fUg937KQ85SKxjETE_KKc=w1239-h929-no
+" style="width:100%" onclick="onClick(this)" alt="Galati trainstation
+">
+                      </div><div class="container">
+                            <img class="w3-margin-top image" src="https://lh3.googleusercontent.com/1p2mpgQKixKgxi4KIHUGueRnHHLp0YwdNQQrM7zHB5l4NcYdgj7GUkINXiRy2tp0L-Q2dSeKBEgLsaP84bIE93lmpUqxjmGvwD-p7MLX29ZRHBQ-b7ElKJ2cKHw8tF5YxI1KHqOFPjQbB50lhLzX4ThxxUxj5xtdAJW19HbE0vjArGic2yNrZyrot1N6zF1M4UZRlb2DuhcjU4w1TXvj4qLMpXNt5WKHB_Duah4I00X4GZ6wkbjypiOTZM0g2uqnfRCO73OOegBAK6Wi7ttfi8WjdiEcuNwd4uRopKVumbBSoLWX2YMikQrZ8QPtUYa2gT4vvYRkyMNNfwUojLAH9LXpWFx--gza8lPnxcc_5QcR9Y9NQfVC1O28TD0OJCO_GRaR63Lzq2FiTA2QVDptNpIzinaWPjk00mcECKVEIRW6Qkdayn47keYPBzX5Qq3OLtC9ZOWrhyxTC7GT13gOaFup9bUhh3fLc2HEmpEAr2tgXCDKLrOZ5sS9CaOc1TZANUoFBNbPOtW_eyMSdICWAJQJ2JO7sOMv9tq2LXJp2boqq_m8dZO_y1KawraQtLcM7qUTqIdWtqbPltTaeSjyB3MjPuBFwKOFKYED01M=w1239-h929-no
+" style="width:100%" onclick="onClick(this)" alt="The Bucharest hostel's small yard
+">
+                      </div>
     </div>
-  </div> -->
+    </div>
+  </div>
 
   <!-- Modal for full size images on click-->
   <div id="modal01" class="w3-modal w3-black" style="padding-top:0" onclick="this.style.display='none'">
-    <span class="w3-button w3-black w3-xlarge w3-display-topright">&times;</span>
     <div class="w3-modal-content w3-animate-zoom w3-center w3-transparent w3-padding-64">
       <img id="img01" class="w3-image">
       <p id="caption"></p>
     </div>
   </div>
 
-<!-- END POST CONTENT -->
-</div>
 </div>
 
-<!-- Introduction menu -->
-<div class="w3-col l4">
-  <!-- About Card -->
-  <div class="w3-card w3-margin w3-margin-top">
-    <div class="w3-container w3-white">
-      <div class="LI-profile-badge w3-margin"  data-version="v1" data-size="large" data-locale="fr_FR" data-type="horizontal" data-theme="light" data-vanity="nathanantoni">
-        <a class="LI-simple-link" href='https://fr.linkedin.com/in/nathanantoni?trk=profile-badge'>Nathan ANTONI</a>
-      </div>
-    </div>
-  </div><hr>
-
-  <!-- Subjects -->
-  <div class="w3-card w3-margin">
-    <div class="w3-container w3-padding">
-      <h4>Subjects</h4>
-    </div>
-    <ul class="w3-ul w3-hoverable w3-white">
-      <a href="{{ site.baseurl }}{% link pages/blog.html %}" style="text-decoration: none">
-        <li class="w3-padding-16">
-          <img src="https://lh3.googleusercontent.com/WWFbdSVs0d5S_dZtyNSToF8AWElOiXY7pprzqyUt4qKnHiwHVC2kks_HDH9oDsQ37kPHlDoNP_lLCWt99TiiorWabDitXEDJIEnDXgEDYMxpb0Ld0kqL7APDzEV9I9lHM6s8H3wKDa4uIaV3sQp1_cuo6HmQWBkTgrZ8UPUk0BLWGL-VnZU7bCerssmG30IhVoEj6nd5DcRYR-WfzD01xSC3cywaN0akjxT_YpRRXW6f_YIjq23RSPD-HVhfmqr7KjHJUVURGUlmMlZLRbNFQBzFhKigC34KNYiChPO-fKb9pl9xz6nu4X4--plcdHFwkn5dbHPn9uU94-4tQNYyKtHmdYilcC5mVTHtKvPGYXkFztRlRBUyR4AuL51U9aJ_NbcU-u8XL2M7w_M9otxTbdKxb4YrXTkig_MPf-WucFUd6dzmvZdIBsdbb0E_t3lYShTkvEUdMtCDJG3jWtZtMIbjdrkc6_21949R8kPrVTxPAf0VCjDHXLyY56G6vETdzuMbnLfLq000oHBIu_os1Kh784Dmt2jepMHpbbOdSnzGd7dg2jfbxWy8V0R3l7Z3LDrJ2KZ8NxjXeqxLGbMs6z4sEBIMl1LA_XCiyrg=w1239-h929-no" alt="Image" class="w3-left w3-margin-right" style="width:50px">
-          <span class="w3-large">ALL</span><br>
-        </li>
-      </a>
-      <a href="{{ site.baseurl }}{% link pages/blog_life.html %}" style="text-decoration: none">
-        <li class="w3-padding-16">
-          <img src="https://lh3.googleusercontent.com/FVKbtQhFukPt3jbsQGlSpMlRtY-DmrYD121NOLOHSnebKWBqP13lppHZQLd0aMSWPQJr2h9hPgmPGpKHyaxWaRl6z-Wj-LVgm56dPiEvuzglnEwySEkT2bGqF212K31k_CGA6BVWVmAqhuoOcSmYPp3SElA3v5LGXCM55Xklfbk9H7rMv9fGFg0g5zuMFQ6ytJhMZ9ivXhWzs-TZB7-2k87lfpoHoVSDUBn9nIkFHju7pQ1YFtgaKhtJyUVaH057JsW8_4_7y82DYRlT56z69s6iov4dIImC9MZLRg0d2Uiryl0Cv7q47LQAKQx6WmwIxbInJqKzyJX0eEkJGlsp4fGGHYpEefHjCGykUhsM2xDsO5K5BWR5wkXbJogqUMtFh4Unf9V586T3jzb6ZgH3_17K9bOgxxs3teQ-O1BDYwoapgxOQMd6MRhgoQaH-0TBA33i3bHezr-X0WfVrB_mtDJn-uX3Ud5Q8iQJHFCpMh5jzhmnlMg-VFgFmv14YPJ96KUWy_cu-cI4zNAsMKkyK9LpBucw3uEpKvKHS3GovviBtTwUqHh-fNMTFqAERT2AeOeBAD-H4NUEYDZchpCbPsJX0D8G1WvHfx3SF1Y=w1239-h929-no" alt="Image" class="w3-left w3-margin-right" style="width:50px">
-          <span class="w3-large">LIFE</span><br>
-        </li>
-      </a>
-      <a href="{{ site.baseurl }}{% link pages/blog_work.html %}" style="text-decoration: none">
-        <li class="w3-padding-16">
-          <img src="https://lh3.googleusercontent.com/Ev7V8Qt8Zh3LFPqy89Q_IkR-iDBjdwT2K7qLfIKWdtPj7REshvzP9JQ4zPwJdoJqSRdKHrSJ5EajgrdonbcFAou4HraQTNJNRRx-Z29xwFcM3UEwgA7kX5nuJcudpiWIwXdNjIfwe8axiyEvSmoft9oHdVLrt-P3zfOpFBg7Ac1PKggyNfBuxgYdB33TDV7IQh5tnkOO86qI_WVrn41GN8yahXTk5sSF-63esYbsgGnUhFMi2pfTrLJEZmoIMJBJ1LD6VUL5jBP0tPUtP6AcK-Fdvx2GG4WsW0fvkTPvQZf4EmjCK91438dyHmNf0s9WjLtZUb_tjciKevyaXs52VrIglmwLpxh0F1Q1h2G7p2Ts7vS5jsjLODailZSPzzjCYfwwmw0h0Jju_0UZODtzR80FUvzLK0V8K2stpHinTh8KjWI3X6hVj91C2Hw9WuXaz9TkoYy-4WQwUmc8phuBJEYD0rF9cY_39eFDb_iAhP5OPSMUqr7zlZuz_0jzxDS3l2mmBXo--QuEX6O_kzWzJ8XM162GhF82iUVxH0WuaGWEl5SydYmTitIiZ8mqGU94E5v-Cjqo7gtOIGNsuShK5godVdvnwBvmpot1Hds=w270-h203-no" alt="Image" class="w3-left w3-margin-right" style="width:50px">
-          <span class="w3-large">WORK</span><br>
-        </li>
-      </a>
-    </ul>
-  </div>
-  <hr>
-
-  <!-- Gallery -->
-  <div class="w3-card w3-margin w3-hoverable w3-white">
-    <ul class="w3-ul w3-hoverable w3-white">
-      <a href="{{ site.baseurl }}{% link pages/gallery.html %}" style="text-decoration: none">
-        <li class="w3-padding-16">
-        <h4>Gallery</h4>
-        </li>
-      </a>
-    </ul>
-  </div>
-
-
-<!-- END Introduction Menu -->
-</div>
-
-<!-- END GRID -->
-</div><br>
-
-<!-- END w3-content -->
-</div>
-
-<!-- Footer -->
-<footer class="w3-container w3-dark-grey w3-padding-32 w3-margin-top">
-  <p> Content owned by Nathan ANTONI</p>
-</footer>
-<script type="text/javascript" src="https://platform.linkedin.com/badges/js/profile.js" async defer></script>
 <script>
-
 // Modal Image Gallery
 function onClick(element) {
   document.getElementById("img01").src = element.src;
@@ -190,7 +133,4 @@ function onClick(element) {
   var captionText = document.getElementById("caption");
   captionText.innerHTML = element.alt;
 }
-
 </script>
-</body>
-</html>

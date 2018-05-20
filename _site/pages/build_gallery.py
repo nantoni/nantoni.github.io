@@ -1,6 +1,6 @@
 #! /usr/bin/python
 
-f = open('./gallery.md', 'r')
+f = open('./gallery_file.md', 'r')
 
 
 column_1 = ""

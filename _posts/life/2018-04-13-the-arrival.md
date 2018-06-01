@@ -1,4 +1,5 @@
 ---
+published: true
 layout:  post
 title:  "THE JOURNEY"
 display_date: 2018-04-12

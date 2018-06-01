@@ -8,4 +8,4 @@ img: ""
 description: I'm currently writing this from the train going from Galati to Constanta with a connection at Faurei
 ---
 
-{{ page.description }}
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{{ page.description }}

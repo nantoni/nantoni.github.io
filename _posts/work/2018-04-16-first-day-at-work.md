@@ -8,4 +8,4 @@ img: "https://lh3.googleusercontent.com/BBXWn4Moy3gOu3VNlnui_Gtw_Ut6p64QtK4u3xqg
 description: We were here for a reason and that's to work for Wind River in Galati so here we were starting in the company
 ---
 
-{{ page.description }}
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{{ page.description }}

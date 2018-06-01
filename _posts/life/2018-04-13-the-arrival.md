@@ -8,13 +8,13 @@ img: "https://lh3.googleusercontent.com/XEdmUNK5AH4QvYWXm-iPeKJB5m0q_9p8BTTvgods
 description: When we arrived at the Galati train station Emilia Pecheanu was waiting for us there.
 ---
 
-{{ page.description }}
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{{ page.description }}
 
 
-She welcomed us and called a cab to drive us to the students accommodation, talked to the girl at the reception (they don't speak English in the accommodation) and once we got our key she let us settle down.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;She welcomed us and called a cab to drive us to the students accommodation, talked to the girl at the reception (they don't speak English in the accommodation) and once we got our key she let us settle down.
 
-The room was really nice with 3 beds, 3 closets, a desk, a personal bathroom and even a small personal balcony. The kitchen and the fridge are shared between each floor tho. We first thought it would be a nice place to meet international students, but after trying to talk with the ones we encountered we understood that most of them were Italians and surprisingly did not speak English.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The room was really nice with 3 beds, 3 closets, a desk, a personal bathroom and even a small personal balcony. The kitchen and the fridge are shared between each floor tho. We first thought it would be a nice place to meet international students, but after trying to talk with the ones we encountered we understood that most of them were Italians and surprisingly did not speak English.
 
-The next day Emilia gave us a tour of the IT department of the university, as well as kitchen utensil from the teachers' kitchen for us to bring to our accommodation. She then took us to our workplaces and showed us a little bit of the surroundings. She's been really kind and helpful to us.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The next day Emilia gave us a tour of the IT department of the university, as well as kitchen utensil from the teachers' kitchen for us to bring to our accommodation. She then took us to our workplaces and showed us a little bit of the surroundings. She's been really kind and helpful to us.
 
-We then said goodbye and took a little walk along the Danube before going shopping for stuff we needed for the 3 months to come.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;We then said goodbye and took a little walk along the Danube before going shopping for stuff we needed for the 3 months to come.

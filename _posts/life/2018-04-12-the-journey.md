@@ -4,7 +4,7 @@ layout:  post
 title:  "THE JOURNEY"
 display_date: 2018-04-12
 categories: life
-img: "https://lh3.googleusercontent.com/GxvMH8-q48kDU9I05-IxwCxshcNDyRUnUUIrA5-gk54YtS9V3tAdmM1ndbkfuU9dqMXIrwFwMLLmG2MigAmsu8a0fr_ikK6ZQMrktJiOLTYzFNO_ip-jAdRwLaGgvgL5tOu0gxCVCucFZCf5kOv0fEyY0i6Zl1iu28m9VuC7haY2dBOMjsSgWyWCO57uPHUYtiOINwTCT2qlGc7ZK8bm9naqCbo10Q4DwzxRAtVAo4vdw6pntGoCykotkU_IY5Ts5jLbZoLJLF4-Hdw9zN6CSIEesoa4XF1a9v5PurJ8vDiZExpq1TLchznLFLVH0iYjozVom4ch6bmQ8k_Elljbwnb1F6kgOCghCb4V1f5XehjvZ0GNyW4FX6NGj-J5TzHkFFsYUL43rQ-nkZrzxPiIzoj6E--niW_Gkfk0iwMGjpaPWfDO9wtx3ZcItMP3zHhuqR4UoZ49-VzyMjCDQn3it9TJbXeYPuq0jGpdTrue5qLddoUNwkW5SA8xeDBnCZhKbnsmOkmaXX6DKeIEznOAJxAbmdxlJwb40IGCoZhN2Z6jJ_-mAk56Xej_f7-Ekx30tKPdNvIn6wsDAJGJF_eJKrm1KcXt5aCg_jJ6KVM=w697-h929-no"
+img: "/assets/images/IMG_20180413_145716.png"
 description: When (almost)all the paperwork was set we now had to get there...
 ---
 

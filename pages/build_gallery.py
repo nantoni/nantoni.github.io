@@ -1,6 +1,6 @@
 #! /usr/bin/python
 
-f = open('./gallery.md', 'r')
+f = open('./gallery_file.md', 'r')
 
 
 column_1 = ""
@@ -20,18 +20,18 @@ for line in reversed(list(f)):
         src = line
         if switch == 1:
             column_1 = column_1 + """<div class="container">
-  <img class="w3-margin-top image" src=\"""" + src + """" style="width:100%" onclick="onClick(this)" alt=\"""" + alt + """">
+  <img class="image" src=\"""" + src + """" style="width:100%" onclick="onClick(this)" alt=\"""" + alt + """">
 </div>"""
 
             switch = 2
         elif switch == 2:
             column_2 += """<div class="container">
-  <img class="w3-margin-top image" src=\"""" + src + """" style="width:100%" onclick="onClick(this)" alt=\"""" + alt + """">
+  <img class="image" src=\"""" + src + """" style="width:100%" onclick="onClick(this)" alt=\"""" + alt + """">
 </div>"""
             switch = 3
         else:
             column_3 += """<div class="container">
-  <img class="w3-margin-top image" src=\"""" + src + """" style="width:100%" onclick="onClick(this)" alt=\"""" + alt + """">
+  <img class="image" src=\"""" + src + """" style="width:100%" onclick="onClick(this)" alt=\"""" + alt + """">
 </div>"""
             switch = 1
     count += 1
@@ -119,7 +119,7 @@ layout: default
   <div class="w3-hide-large" style="margin-top:83px"></div>
 
   <!-- Photo Grid -->
-  <div class="row" >
+  <div class="row" style="margin-top:8px" >
     <div class="column">
       """ + column_1 + """
     </div>

@@ -1,19 +1,166 @@
 GALLERY PHOTOS
 
-https://lh3.googleusercontent.com/1p2mpgQKixKgxi4KIHUGueRnHHLp0YwdNQQrM7zHB5l4NcYdgj7GUkINXiRy2tp0L-Q2dSeKBEgLsaP84bIE93lmpUqxjmGvwD-p7MLX29ZRHBQ-b7ElKJ2cKHw8tF5YxI1KHqOFPjQbB50lhLzX4ThxxUxj5xtdAJW19HbE0vjArGic2yNrZyrot1N6zF1M4UZRlb2DuhcjU4w1TXvj4qLMpXNt5WKHB_Duah4I00X4GZ6wkbjypiOTZM0g2uqnfRCO73OOegBAK6Wi7ttfi8WjdiEcuNwd4uRopKVumbBSoLWX2YMikQrZ8QPtUYa2gT4vvYRkyMNNfwUojLAH9LXpWFx--gza8lPnxcc_5QcR9Y9NQfVC1O28TD0OJCO_GRaR63Lzq2FiTA2QVDptNpIzinaWPjk00mcECKVEIRW6Qkdayn47keYPBzX5Qq3OLtC9ZOWrhyxTC7GT13gOaFup9bUhh3fLc2HEmpEAr2tgXCDKLrOZ5sS9CaOc1TZANUoFBNbPOtW_eyMSdICWAJQJ2JO7sOMv9tq2LXJp2boqq_m8dZO_y1KawraQtLcM7qUTqIdWtqbPltTaeSjyB3MjPuBFwKOFKYED01M=w1239-h929-no
+/assets/images/IMG_20180412_215528_HHT.png
 The Bucharest hostel's small yard
 
-https://lh3.googleusercontent.com/zAbaK9ZogUP5QvC8vxZQm9tTxdDzcmFE1p21te2URo_TEz1F-I7dzOy5z6yOAIa-_7XvuuZuFTmxP66Av5Zbgf7f666hnVKARTVp9DCEm9fFXaRGUbrKucLqik9_3B4SALr7LPLP1p8omQBkkHgwJ3hLNOcDt4Vpy0bj52y3F-82YskkttrUVM9a28v9IJswSi6NKVO7hPybkbHWaqYAADw2Geeky4Zcsd64PsyBx5PUml6yo1G_uxyZUVnTKPPTwm1GisvV56t8jGIDqd34wX4gl7t66-caQ9T1igVt8uYjyDWTFaUXEQ4emjuEIXC5-TIdQ9ozgmWf_CMCZDyud6hgIbZ7_zAkkZfKnUJeehyjaGfSDNrIuESsuFS1ZO93lRQnNMUCkivEZag7kQfxWoxfVm4XTFavYkUPIvb0HXTH1BK5OdbvpWbfEzDu-dKpjOw3rc4fzkjBOdul5AN3HjOLv8cGw53gacWrWmG2kEOIWyxEO-0b1WDv-JIxKtL6yDcDY5pPzJ7l1gaaO_1v3zaF_OmuowGP5hPkZFzk4d4zkvBTYPNWJMkSgKgCSsBDfTws0FTS-iZP5VZ09sEnZ2jqFtZovXR4xzVmbnI=w1239-h929-no
+/assets/images/IMG_20180412_231045.png
 Home-like dinner
 
-https://lh3.googleusercontent.com/bwJZF9-jCu_kVuIeVCzjNR5dTkIK6CkbVofNQKpXsugv4GlEWK391EMmkEUT1hhis-hh16UUyCszK-MjqFHImM_WsY69-lSRkb-D3Ly5by6bJBJjtDt-i7G-HOwLTWvhO0N1kfR0JDHyz_pYreXzFS5-XM5G117DYRULUtfb-M-PV-jHl0grVNHjkaD-Rg-6F76tx9bhVWOHb6amjy7ZbrfjVuerbDud28vpOvjiVST7oMU_zM_aJRT0c9Qxpi3uepmo9DEG8imdKqorPtjZHJ9h7e9f-fS5cR6bpQpqu1E1GdVTiQ8z4oo8Cm2go3QtwicGvYQe_x-mwqsPUna_hhoP5hHFr9WXC0E1JdtfcbjgmpyksIqz521rt7_wtJBwSs0jLUQgRxxR-vY4e1CjRNob8Cc1yD2_cSVfSsv2ZEPdOzzTP2uGu-PzRz6gJNbuvpDhRdiclJBp6R6HpslKYTcJMUx-89ut-ZGPCUDb2aTFQzUVv6AcUrYnKSN-bEFmgy6tvVWaqHlZmtV_-axxn4N3ffTMnw9HE9IhqVs-1GCIc3pxYjlP6u1ZHHT5ITULkKpIeFdCY1VQd2vfhV0cuqhITHcaGjU4AGxrjYM=w1239-h929-no
+/assets/images/IMG_20180413_093715.png
 Bucharest's hostel room
 
-https://lh3.googleusercontent.com/XEdmUNK5AH4QvYWXm-iPeKJB5m0q_9p8BTTvgodsZyDNLBh7U0uIw3sLtySKk2sMT-EIdli5qdL3PV2sis8v2_GLmIkhwlWWDfpoOoOC8Uq0MIkVYa-XLi0fbhudDigwNhSNUaeMd4L-JLXtE7Wi-Q4DpfURxjvs_Lm7vhMvLYihTnOErOXUnEqeEriX4YRIQ0yLHn6xmyXB4BVDjgxWiDNxtYJ8tWKlKXjMGr0LcQ81MwZbdvprPyyxDqo25KmunbPDD9X0McEhTWxmTvzM_qz_IMmhD1aEFVAesBGHwLnsr_nVWB5quBvb2rJYE9rEI9cvxuYqGFWFAPwK_cyyyhoVx8koRvIDivpRwDEUOnzqEQeKYOEY2nKwFROEsZUFt-i7XHSvCq9COGxNBn1fZ7BseqP7UwSjPNCZyzZYzYfxl0TfcajHorpyIqjUtJbpFDZNHT38tNx9cD_KhOtvHatL-qtPoHHRk8BXwmq59vKHJgZRq51uwq5mFGlGRQ7-0q1o4ShUeM33UF7lF50Cma4j9eV0aKc3zpFJRDfgWUiSIFR7DBylRTaQ8HIU9-hIvHeL__NiK9OUAR6ql8fUg937KQ85SKxjETE_KKc=w1239-h929-no
+/assets/images/IMG_20180413_171620.png
 Galati trainstation
 
-https://lh3.googleusercontent.com/LENWxV71NU4xbtC5BESvcsLJICXrOFCVF3FV20Eti127EbsBtjPU1TRyMmawRfB3vWO8HmFJPNEeYSwuQPmyn53on1CJWiPsNHKbGoOdJz73tIlLIFtWt6C99W9hJX35xQHBV4P8M5SY05R4n-dvlfDmvUZsQTEhfdinY3Ip7Gjvkqzd1mJ0gbbrgx_gB96XS3cyViMBWFNsQpg9TcsoZ0oPvpa_q3EdjZq_mI0xKCSQZ1XfExf-U0nL2Q9PXso1Qzq8pu0lGTjdX7n0dREVe5o0rY-tT3S4zY1aJGJxtTMs60BaH2YhVOyD8MlwPtI9P_mKiSNB2h-35Bfc6C04v086wOv3MzUQVrbc89UHT0S7KkgR8EmgpL0ujSnNgxXR6ny8vTw20_vcx7v0q4A5BVKMmQdLNdXK_riEazG_lS19Dq60B-I2pTX_jVb2nLARBjEN6ue-bZw2J_yzR614_sQg03A4C5X8FAsQ66R0T4m5I7QfGd2d8ZJJd36eVMku18-CCMejrP4yisX2r7ZMlKqVh0LzRdPQU-t6HodTdhIiC3AukoPNW_vjRR6u5wiiTHmEeUvUvYZosIqqAeHcQHLxSL6_dJFHV9hmWg8=w697-h929-no
+/assets/images/IMG_20180413_174259.png
 The student hall we're staying during 2,5 months
 
-https://lh3.googleusercontent.com/xB_JC9w1nUkWTs6YPwb__JB2ZoNYnt6uNhFQbBkWfNuN9yjw5Mx6USjztD3R-HbcxHqYboMm9W6I1RMUeK3QdSJJ9ikTXxCSxWrUCkUlNnz5QadQVXp2bU6OEuw_A30i9pJ50xNvGYiY-PVtf9Or7tDHAMkhw8fyAHgEmN7DbQASbD6oC8xf7lRUsMf7zq7ClzsQOkw2rdH2AE2_1sWfPkTNvQBVSPBDQrzLd7kuk_NYnqe8_1E0ePyyyF3bOEXZk_UgjVodprTuC_4KlW7WPdDl6YaoHdz39-9FofSDh7FnEmmRitp6DYjZ1WnQZgcqvR-6mM_nYVs6HQ_b0XNDZ8xwD33E54KKdGtuNYvHhhEdHKV6JLnrT6xMQ8O5l8I5Z2sMm2mOK6geOvDrmLN2d07koDtph_yyH7W8CidkLJIgaLYB588LgYGzQfDSFSgXQWaZ-BFx42N2jvn4I5K4LA6czd-x1YTZlGa-OI8Wp6ACi6z20qbrTWo_XtBwXwB1kZULv-TdVec-XfxosfSqlH-2SoZ52ATGSGCQ-k0-fSJ0AFeNX9uLsbvxEAUgV6xJg8StumoiqiDUBNBzilIiTSSqS27MXybVGb4GYWc=w1239-h929-no
+/assets/images/IMG_20180414_203643.png
+How we managed to organize the lecture room
+
+/assets/images/IMG_20180415_113257.png
+The kitchen we share with our floor
+
+/assets/images/IMG_20180416_082041.png
+Some Danish sold by a bakery in front of our accomodation
+
+/assets/images/IMG_20180416_132604.png
+The best pizza I had so far
+
+/assets/images/IMG_20180416_141811.png
+The best tiramisu I found in Galati
+
+/assets/images/IMG_20180417_093642.png
 Françoi's and i desks
+
+/assets/images/IMG_20180418_160235.png
+The company fishs
+
+/assets/images/IMG_20180418_221314.png
+My bed in our room
+
+/assets/images/IMG_20180418_221343.png
+How we managed to dry our clothes after the laundry
+
+/assets/images/IMG_20180421_131945.png
+Some chicken and vegetables soup made by a romanian mother
+
+/assets/images/IMG_20180423_131638.png
+The main Galati's university building
+
+/assets/images/IMG_20180507_185551.png
+The view from our office's roof
+
+/assets/images/IMG_20180426_110909.png
+The conference/cohesion room
+
+/assets/images/IMG_20180426_110917.png
+The office's dining room in the basement
+
+/assets/images/IMG_20180426_140640.png
+First Burger we had in Galati
+
+/assets/images/IMG_20180426_184415.png
+Dacia, the car brand that is all over the place
+
+/assets/images/IMG_20180430_094556.png
+Getting barked at by a dog on his roof
+
+/assets/images/IMG_20180430_133428.png
+When I missed red meat too much
+
+/assets/images/IMG_20180502_133214.png
+Great pork ribs at Daily pub
+
+/assets/images/IMG_20180503_130623.png
+Having romanian soup in an authentic restaurant
+
+/assets/images/IMG_20180503_132016.png
+The main romanian beer brands we came accross
+
+/assets/images/IMG_20180503_132113.png
+Some really loud propeller plane flying close from the rooftops
+
+/assets/images/IMG_20180504_132927.png
+Typical dish : mamaliga and sarma
+
+ /assets/images/IMG_20180509_151323.png
+ My desk with the Honda test bench
+
+ /assets/images/IMG_20180509_165033.png
+ The free snacks you can enjoy
+
+ /assets/images/IMG_20180511_211304.png
+ A nice place : Union jack
+
+ /assets/images/IMG_20180513_121427.png
+ The beer is really cheap compared to France
+
+ /assets/images/IMG_20180516_094204.png
+ The Galati's orthodox cathedral seen from our room
+
+ /assets/images/IMG_20180518_100859.png
+ Romanian Bretzels
+
+ /assets/images/IMG_20180520_180531.png
+ The 'bac' to cross the Danube
+
+ /assets/images/IMG_20180520_182150.png
+ There are a few abandoned places nobody wants to take care of
+
+/assets/images/IMG_20180520_182608.png
+A cosy police station
+
+/assets/images/IMG_20180520_182638.png
+An orthodox church
+
+/assets/images/IMG_20180520_185608.png
+The carriage we rode
+
+/assets/images/IMG_20180526_155952.png
+Faurei's train station bridge
+
+/assets/images/IMG_20180526_155959.png
+Faurei's train station
+
+/assets/images/IMG_20180527_192139.png
+Taking a walk on the beach
+
+/assets/images/IMG_20180528_122844.png
+Elders playing board game on a park
+
+/assets/images/IMG_20180528_125147.png
+Constanta's beach
+
+/assets/images/IMG_20180528_130910.png
+Constanta's street
+
+/assets/images/IMG_20180528_131510.png
+Constanta old center
+
+/assets/images/IMG_20180528_154217.png
+Constanta's old casino
+
+/assets/images/IMG_20180531_144410.png
+The company's cat mother
+
+/assets/images/IMG_20180531_185728.png
+The company's kitten
+
+/assets/images/IMG_20180602_153628.png
+Tulcea
+
+/assets/images/IMG_20180602_160727.png
+Castle's ruins in Tulcea
+
+/assets/images/IMG_20180602_191028.png
+Iacul Iacobdeal an old mine that collapsed
+
+/assets/images/IMG_20180602_191035.png
+Iacul Iacobdeal
+
+/assets/images/IMG_20180605_100147.png
+Our accomodation building seen from the university of engineering
+
+/assets/images/IMG_20180605_125442.png
+Galati's train station

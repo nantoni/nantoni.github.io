@@ -4,6 +4,7 @@ layout:  post
 title:  "THE IDEA OF THIS INTERNSHIP"
 display_date: Mid 2017
 categories: life
+img: "/assets/images/flag_of_romania.svg"
 description: At the end of the second UIT's semester I heard about the possibility to make a foreign internship.
 ---
 

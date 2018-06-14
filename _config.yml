@@ -16,7 +16,7 @@
 title: NATHAN'S BLOG
 email: nathan.antoni@outlook.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Nathan ANTONI (IUT Robert Schuman - Université de Strasbourg) homepage
+  Nathan ANTONI (IUT Robert Schuman - Université de Strasbourg) homepage - blog
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://nathanantoni.fr" # the base hostname & protocol for your site, e.g. http://example.com
 

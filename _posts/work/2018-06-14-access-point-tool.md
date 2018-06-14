@@ -1,11 +1,11 @@
 ---
 published: false
 layout:  post
-title:  "THE FOOD"
+title:  "Android access point managing tool"
 display_date: 2018-05-26
-categories: life
+categories: work
 img: ""
-description: Foodwise, we got conscious that France's culinary legacy is of great value.
+description:
 ---
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{{ page.description }}

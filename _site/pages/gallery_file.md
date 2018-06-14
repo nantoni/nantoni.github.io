@@ -25,7 +25,7 @@ The kitchen we share with our floor
 Some Danish sold by a bakery in front of our accomodation
 
 /assets/images/IMG_20180416_132604.png
-The best pizza I had so far
+The best pizza I had in Romania so far
 
 /assets/images/IMG_20180416_141811.png
 The best tiramisu I found in Galati

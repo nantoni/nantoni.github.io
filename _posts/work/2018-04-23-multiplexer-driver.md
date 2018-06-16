@@ -2,9 +2,9 @@
 published: true
 layout:  post
 title: "Writing a driver for a USB Multiplexer device"
-display_date: 2018-04-23
+display_date:
 categories: work
-img: "https://lh3.googleusercontent.com/PUamFgCdlOXPQSmLEpC8LVY14MzRXoTjtBseXt4FJNFdZHmElP3rvK1znUCBIxH-l2ZHHeHZH_3YN_aemoXbi_O9Hhqh6DJCGXZ62JdsVKDONL18qqPZfbVSAK_Id8dJ--GqwYoWm5iVQgugX0aSi04O7pzFL9PIqbwufXm6YUIE8QOzatZ6YsPA8ii7H4_wcs_q_vrVDwnFnJ8_WFQUcwXNEDIXZnT2YcnGgHa7hY7O2Ts_uiwjM2FBjlyz-ZpDWKYVNEeaCvIjYkNt_-2EgTEWzUBAyKK1DdxgRuJ_cKVAGQTs3Iqutdm_brj7fUlANRRpmKfNVTfjv942HLUviu7WxOZoNJgLi5I8Z6zfEIYqvQgWu4zb65b5-_eP7Ll4L3Ag5P3Cx0eKXiLfVAbOi1A7AwHPE0RkgLOB4SE8K0UdDweEaguowKHBEKamw5JtWsGPm_iei1tjAE8AEIgVC-N_iKpi-AJTfhzNc5TbJIzXr7wE0fMyPYlw6U9VdTkOTGig7RG6hKRFx_bhWCVdSEYe0xzKIQG5UeOAjr8zrW2nS2SGKKFYsjO2hzfaU5RK-3mPoAINklcxMGxG46poDL4STA3WljRT0-waXag=w1240-h930-no"
+img: "/assets/images/IMG_20180614_231126.jpg"
 description: After getting used to the uiautomator tool for future tasks we were asked to write a driver for a device they needed to use for their tests.
 ---
 

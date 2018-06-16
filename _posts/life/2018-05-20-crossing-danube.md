@@ -1,15 +1,29 @@
 ---
-published: false
+published: true
 layout:  post
-title:  "Constanta and our strugle to go on a weekend"
-display_date: 2018-05-26
+title:  "Crossing the Danube"
+display_date: 2018-05-20
 categories: life
-img: ""
-description: It's been more than a month since we were in Galati, and we hadn't had the chance to visit another place.. yet we tried.
+img: "/assets/images/IMG_20180520_185608.jpg"
+description:
 ---
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{{ page.description }}
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Thanks to the orthodox "Pentecôte" monday was a free day and we had a 3 days weekend, what a great occasion to visit the sea side!
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+
+
+
+
+
+| :------------- | :------------- |
+| <img src="/assets/images/IMG_20180520_180531.jpg" width="100%"/> | <img src="/assets/images/IMG_20180520_182608.jpg" width="100%"/> |
+
+| :------------- | :------------- |
+| <img src="/assets/images/IMG_20180520_185753.jpg" width="100%"/>  |  <img src="/assets/images/IMG_20180520_190224.jpg" width="100%"/> |
+
+| :------------- | :------------- |
+| <img src="/assets/images/IMG_20180520_195714.jpg" width="100%"/>  | <img src="/assets/images/IMG_20180520_195709.jpg" width="100%"/>  |

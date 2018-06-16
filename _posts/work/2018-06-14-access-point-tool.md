@@ -2,7 +2,7 @@
 published: false
 layout:  post
 title:  "Android access point managing tool"
-display_date: 2018-05-26
+display_date:
 categories: work
 img: ""
 description:

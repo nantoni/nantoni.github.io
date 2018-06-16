@@ -21,5 +21,5 @@ description: When we arrived at the Galati train station Emilia Pecheanu was wai
 
 
 :-:|:-:
-<img src="/assets/images/IMG_20180413_174259.jpg" alt="camin" width="94%"/> |  <img src="https://lh3.googleusercontent.com/GOKjMBEcYKNHFY-vxDKo1JjPzJZyt2H8tfQxt4mxcTGNFacMtgMXdy74xuA3zTkSjflHjTTfSohusgJXosE6eWBskN-M4hOEsKCrDmqBFcKkqwYeQUhAi6U_TrwWZhXvRfoszWxVjgsIa2Sjj7nWTCsjqnKCbYSQfwyUs-oLqYeqdOi__fhM99MJ708JAu0jecM8VrW0goQxU5x-BVuetspgt2DkK7-_X-f8UX3QUF2pZE6VPmqIOxDLQ_1AZSe3tOo8xC3UX8Tph6uvOCDzTlH_V3110x1-abwRN-76eOQIJPeUAUc9Ol19iUSavaZqFABrljRnAS7ieSsd1Vo4I0btvAIcwPwOHjv8g_6C6U817Fxp5Rm2NPeJ-F9W8A93QuFmxAC5y9DDQ0T1-APFdX40QOYRuszMHFMScfcpvzMtyldilTcH-nxkDHG7dUUyvTKbVd55J5oBUh3btz0AlTsdIzHjSbINzBJri-DikwwNwHV6C8lbG9eeGrEnaBxYlOhN1nOBYqfgJf1-jzLA3KPGp6hQZyWNDS_ZL2Jvcj9tpow0wUnpEDCfyoCWhNwImAgD5myiJwbcoDe7-rEQwhvBx2-ybsV2lOOXq9s=w697-h929-no" alt="train tickets" width="100%"/>
+<img src="/assets/images/IMG_20180413_174259.jpg" alt="camin" width="94%"/> |  <img src="/assets/images/IMG_20180413_202136.jpg" alt="train tickets" width="100%"/>
 _<sub>Our students accommodation</sub>_ | _<sub>Our train ticket from Bucarest to Galati: 12.50€ each</sub>_

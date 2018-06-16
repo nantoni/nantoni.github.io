@@ -90,8 +90,8 @@ and is wrapped around the whole page content, except for the footer in this exam
 <!-- END w3-content -->
 </div>
 
-{% if page.footer %}
-  {% include {{page.footer}} %}
+{% if page.layout == 'post' %}
+  {% include footer_simple.html %}
 {% else %}
   {% include footer_default.html %}
 {% endif %}

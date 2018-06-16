@@ -1,10 +1,10 @@
 ---
-published: false
+published: true
 layout:  post
 title:  "Constanta and our strugle to go on a weekend"
 display_date: 2018-05-26
 categories: life
-img: ""
+img: "/assets/images/IMG_20180527_192139.jpg"
 description: It's been more than a month since we were in Galati, and we hadn't had the chance to visit another place.. yet we tried.
 ---
 
@@ -13,3 +13,5 @@ description: It's been more than a month since we were in Galati, and we hadn't 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Thanks to the orthodox "Pentecôte" monday was a free day and we had a 3 days weekend, what a great occasion to visit the sea side!
+
+<!-- <img src="aaaa" width="100%"/> -->

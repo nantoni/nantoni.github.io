@@ -1,7 +1,7 @@
 ---
 published: true
 layout:  post
-title:  "Bucarest!"
+title:  "Bucaresti!"
 display_date: 2018-06-05
 categories: life
 img: "/assets/images/IMG_20180607_193905.jpg"

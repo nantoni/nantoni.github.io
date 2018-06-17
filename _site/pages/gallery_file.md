@@ -12,29 +12,23 @@ Bucharest's hostel room
 /assets/images/IMG_20180413_171620.jpg
 Galati trainstation
 
-/assets/images/IMG_20180413_174259.jpg
-The student hall we're staying during 2,5 months
+/assets/images/IMG_20180413_185246.jpg
+Perseus, the Danube's icebreaker
 
 /assets/images/IMG_20180414_203643.jpg
 How we managed to organize the lecture room
-
-/assets/images/IMG_20180415_113257.jpg
-The kitchen we share with our floor
-
-/assets/images/IMG_20180416_082041.jpg
-Some Danish sold by a bakery in front of our accomodation
 
 /assets/images/IMG_20180416_132604.jpg
 The best pizza I had in Romania so far
 
 /assets/images/IMG_20180416_141811.jpg
-The best tiramisu I found in Galati
+The best dessert I found in a Galati's restaurant
 
 /assets/images/IMG_20180417_093642.jpg
 Françoi's and i desks
 
-/assets/images/IMG_20180418_160235.jpg
-The company fishs
+/assets/images/IMG_20180430_190543.jpg
+Working on the USB Multiplexer
 
 /assets/images/IMG_20180418_221314.jpg
 My bed in our room
@@ -51,12 +45,6 @@ The main Galati's university building
 /assets/images/IMG_20180507_185551.jpg
 The view from our office's roof
 
-/assets/images/IMG_20180426_110909.jpg
-The conference/cohesion room
-
-/assets/images/IMG_20180426_110917.jpg
-The office's dining room in the basement
-
 /assets/images/IMG_20180426_140640.jpg
 First Burger we had in Galati
 
@@ -72,6 +60,9 @@ When I missed red meat too much
 /assets/images/IMG_20180502_133214.jpg
 Great pork ribs at Daily pub
 
+/assets/images/index_image.jpg
+Galati's street
+
 /assets/images/IMG_20180503_130623.jpg
 Having romanian soup in an authentic restaurant
 
@@ -84,11 +75,8 @@ Some really loud propeller plane flying close from the rooftops
 /assets/images/IMG_20180504_132927.jpg
 Typical dish : mamaliga and sarma
 
- /assets/images/IMG_20180509_151323.jpg
- My desk with the Honda test bench
-
- /assets/images/IMG_20180509_165033.jpg
- The free snacks you can enjoy
+/assets/images/IMG_20180510_133134.jpg
+The great fasole with sausages
 
  /assets/images/IMG_20180511_211304.jpg
  A nice place : Union jack
@@ -98,9 +86,6 @@ Typical dish : mamaliga and sarma
 
  /assets/images/IMG_20180516_094204.jpg
  The Galati's orthodox cathedral seen from our room
-
- /assets/images/IMG_20180518_100859.jpg
- Romanian Bretzels
 
  /assets/images/IMG_20180520_180531.jpg
  The 'bac' to cross the Danube
@@ -116,6 +101,21 @@ An orthodox church
 
 /assets/images/IMG_20180520_185608.jpg
 The carriage we rode
+
+/assets/images/IMG_20180520_185725.jpg
+A dog wanted to follow our carriage
+
+/assets/images/IMG_20180520_190410.jpg
+Small beach on the other side of the Danube
+
+/assets/images/IMG_20180520_201434.jpg
+Another carriage, the most far you are from a city, the more you see
+
+/assets/images/IMG_20180524_131408.jpg
+Trying new things near the local market
+
+/assets/images/IMG_20180524_193012.jpg
+The older Intel's building garden
 
 /assets/images/IMG_20180526_155952.jpg
 Faurei's train station bridge
@@ -147,6 +147,15 @@ The company's cat mother
 /assets/images/IMG_20180531_185728.jpg
 The company's kitten
 
+/assets/images/IMG_20180601_193306.jpg
+Cheap chincken finger's at Rotterdam café
+
+/assets/images/IMG_20180602_121034_HDR.jpg
+Water lilys on the Danube's delta
+
+/assets/images/IMG_20180602_160023.jpg
+Tulcea
+
 /assets/images/IMG_20180602_153628.jpg
 Tulcea
 
@@ -164,3 +173,30 @@ Our accomodation building seen from the university of engineering
 
 /assets/images/IMG_20180605_125442.jpg
 Galati's train station
+
+/assets/images/IMG_20180606_124824.jpg  
+Feeling the communist's vibe
+
+/assets/images/IMG_20180606_180652.jpg
+Street art in Bucarest
+
+/assets/images/IMG_20180606_183444.jpg
+
+
+/assets/images/IMG_20180607_162125.jpg
+Ceaușescu's palace, now the Romanian parliament
+
+/assets/images/IMG_20180607_193905.jpg
+Street art
+
+/assets/images/IMG_20180608_202358.jpg
+About to hit Galati
+
+/assets/images/IMG_20180609_172339.jpg
+Never getting tired of the quattro fromagi
+
+/assets/images/IMG_20180613_095541.jpg
+Company's cat family
+
+/assets/images/IMG_20180614_140528.jpg
+Feeling the culture in Galati

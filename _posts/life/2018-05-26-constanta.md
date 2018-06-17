@@ -14,37 +14,33 @@ description: It's been more than a month since we were in Galati, and we hadn't 
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;TRANSPORT
 
-<img src="/assets/images/IMG_20180526_155959.jpg" width="100%"/>
-<img src="/assets/images/IMG_20180526_155952.jpg" width="100%"/>
-<img src="/assets/images/IMG_20180526_155240.jpg" width="100%"/>
-<img src="/assets/images/IMG_20180526_145845.jpg" width="100%"/>
+:-:|:-:
+<img src="/assets/images/IMG_20180526_155959.jpg" onClick="onClick(this)" alt="" onClick="onClick(this)" alt="" width="100%"/>|<img src="/assets/images/IMG_20180526_155952.jpg" onClick="onClick(this)" alt="" width="100%"/>
+<img src="/assets/images/IMG_20180526_155240.jpg" onClick="onClick(this)" alt="" width="100%"/>|<img src="/assets/images/IMG_20180526_145845.jpg" onClick="onClick(this)" alt="" width="100%"/>
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;AIRBNB
 
-<img src="/assets/images/IMG_20180526_210658.jpg" width="100%"/>
-<img src="/assets/images/IMG_20180526_210643.jpg" width="100%"/>
-<img src="/assets/images/IMG_20180526_210636_HHT.jpg" width="100%"/>
-<img src="/assets/images/IMG_20180526_210625.jpg" width="100%"/>
+:-:|:-:
+<img src="/assets/images/IMG_20180526_210658.jpg" onClick="onClick(this)" alt="" width="100%"/>|<img src="/assets/images/IMG_20180526_210643.jpg" onClick="onClick(this)" alt="" width="100%"/>
+<img src="/assets/images/IMG_20180526_210636_HHT.jpg" onClick="onClick(this)" alt="" width="100%"/>|<img src="/assets/images/IMG_20180526_210625.jpg" onClick="onClick(this)" alt="" width="100%"/>
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;BLACK SEA
 
-<img src="/assets/images/IMG_20180527_192139.jpg" width="100%"/>
-<img src="/assets/images/IMG_20180527_192135.jpg" width="100%"/>
-<img src="/assets/images/IMG_20180527_192124.jpg" width="100%"/>
-<img src="/assets/images/IMG_20180528_125147.jpg" width="100%"/>
+:-:|:-:
+<img src="/assets/images/IMG_20180527_192139.jpg" onClick="onClick(this)" alt="" width="100%"/>|<img src="/assets/images/IMG_20180527_192135.jpg" onClick="onClick(this)" alt="" width="100%"/>
+<img src="/assets/images/IMG_20180527_192124.jpg" onClick="onClick(this)" alt="" width="100%"/>|<img src="/assets/images/IMG_20180528_125147.jpg" onClick="onClick(this)" alt="" width="100%"/>
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;GOBLIN
 
-<img src="/assets/images/IMG_20180528_011217.jpg" width="100%"/>
+<img src="/assets/images/IMG_20180528_011217.jpg" alt="" width="100%"/>
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;OLD TOWN
 
-<img src="/assets/images/IMG_20180528_131510.jpg" width="100%"/>
-<img src="/assets/images/IMG_20180528_130910.jpg" width="100%"/>
-<img src="/assets/images/IMG_20180528_154611.jpg" width="100%"/>
-<img src="/assets/images/IMG_20180528_154217.jpg" width="100%"/>
+:-:|:-:
+<img src="/assets/images/IMG_20180528_131510.jpg" onClick="onClick(this)" alt="" width="100%"/>|<img src="/assets/images/IMG_20180528_130910.jpg" onClick="onClick(this)" alt="" width="100%"/>
+<img src="/assets/images/IMG_20180528_154611.jpg" onClick="onClick(this)" alt="" width="100%"/>|<img src="/assets/images/IMG_20180528_154217.jpg" onClick="onClick(this)" alt="" width="100%"/>
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;FANCIEST RESTAURANT
 
-<img src="/assets/images/IMG_20180528_145122.jpg" width="100%"/>
-<img src="/assets/images/IMG_20180528_140329.jpg" width="100%"/>
+:-:|:-:
+<img src="/assets/images/IMG_20180528_145122.jpg" onClick="onClick(this)" alt="" width="100%"/>|<img src="/assets/images/IMG_20180528_140329.jpg" onClick="onClick(this)" alt="" width="100%"/>

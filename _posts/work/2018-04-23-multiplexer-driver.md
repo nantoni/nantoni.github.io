@@ -1,7 +1,7 @@
 ---
 published: true
 layout:  post
-title: "Writing a driver for a USB Multiplexer device"
+title: "Writing a Python driver for a USB Multiplexer device"
 display_date:
 categories: work
 img: "/assets/images/IMG_20180614_231126.jpg"

@@ -17,7 +17,6 @@ body, html {
     font-family: 'Open Sans', sans-serif;
 }
 
-}
 </style>
 <body class="w3-pale-grey">
 
@@ -43,11 +42,21 @@ and is wrapped around the whole page content, except for the footer in this exam
 <div class="w3-col l8 m12 s12">
 
   <div class="w3-container w3-large w3-margin-left" >
-    <div class="w3-justify" style="margin: 0 25px;"><p><p>      </p>
+    <div class="w3-justify" style="margin: 0 25px;"><p><p>      Working on this blog was a great way to dig into various web technologies.</p>
 
-<p>      </p>
+<p>      Because of the context of my internship I was offered to do this blog about my experience in Romania instead of a plain text report solely on my work at the company.<br />
+      I saw this as an opportunity to sharpen my web skills, as well as to advertise how an internship abroad is a priceless experience.</p>
 
-<p><img src="/assets/images/IMG_20180614_211607.jpg" width="100%" /></p>
+<p>      I first started to look at the various free options to host a website. It turned out that <a href="https://github.com/">Github</a>, that I’m familiar with because I used it a lot for the version control and code-sharing of the many team projects we had at the IUT, is offering a free solution to host your static website.<br />
+      Regarding the fact that it is a blog it does not need to have server-side code being ran, so I went for this option.</p>
+
+<p>      Github-hosted sites works with Jekyll a static site generator developed by Github’s founder. It allowed me to discover this tool, along with the Liquid template language that is supported by Jekyll.<br />
+      It was also a great way to work with HTML and CSS that I hadn’t had the chance to work too much with during my DUT.</p>
+
+<p>      We were allowed to use the company’s facility after our working hours to work on personal projects, so we did stayed late to work on our blogs. The environment is favorable to productivity, it has free coffee, and it has an air conditioner, which there is not in our accommodation, and working a really hot environment is challenging.</p>
+
+<p><img src="/assets/images/IMG_20180614_211607.jpg" width="100%" />
+<sub><em>François working late on his own blog at the company</em></sub></p>
 </p></div>
   </div>
 
@@ -114,6 +123,16 @@ and is wrapped around the whole page content, except for the footer in this exam
 <!-- END w3-content -->
 </div>
 
+<!-- Modal for full size images on click-->
+<div id="modal01" class="w3-modal w3-black" style="padding-top:0" onclick="this.style.display='none'">
+  <div class="w3-modal-content w3-animate-zoom w3-center w3-transparent w3-padding-64">
+    <img id="img01" class="w3-image">
+    <p id="caption"></p>
+  </div>
+</div>
+
+
+
 
   <footer class="w3-center w3-dark-grey w3-padding-64">
   <!-- <p>Content owned by Nathan ANTONI</p> -->
@@ -124,3 +143,13 @@ and is wrapped around the whole page content, except for the footer in this exam
 <script type="text/javascript" src="https://platform.linkedin.com/badges/js/profile.js" async defer></script>
 </body>
 </html>
+
+<script>
+// Modal Image Gallery
+function onClick(element) {
+  document.getElementById("img01").src = element.src;
+  document.getElementById("modal01").style.display = "block";
+  var captionText = document.getElementById("caption");
+  captionText.innerHTML = element.alt;
+}
+</script>

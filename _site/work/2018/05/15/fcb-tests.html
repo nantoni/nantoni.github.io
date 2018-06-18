@@ -51,10 +51,67 @@ and is wrapped around the whole page content, except for the footer in this exam
 
 <p>      We were given test cases and we had to program them, first on the USB and then on the Wi-Fi module of the system. We used Android Studio to design the tests.</p>
 
-<p>      Our main goal was to automate the testing procedure. With this in mind we developed a Python tool that launched every tests through Android Debug Bridge. This tool had to recover, parse and save the device logs for every tests. It also had to communicate with an USB Multiplexer, using the tool we had previously developed.<br />
+<p>      Our main goal was to automate the testing procedure. With this in mind we developed a Python tool that launched every tests through Android Debug Bridge. This tool had to recover, parse and save the device logs for every tests. It also had to communicate with an USB Multiplexer, using the tool we had previously developed. The tool uses concurrency programming concepts that I had the chance to see in depth in the Python concurrency class I took at the UIT. <br />
       This way, the test flow could be entirely automated, launching tests on the test bench, automating the USB plugs-in and plugs-out, and recovering the logs for debug purposes.</p>
 
+<p><strong>Here is a peak at the Python thread running the multiple steps to execute one test case</strong></p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c"># The unitTests to be run on the device</span>
+<span class="k">class</span> <span class="nc">_UnitTests</span><span class="p">(</span><span class="n">Thread</span><span class="p">):</span>
+    <span class="k">def</span> <span class="nf">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">fifo</span><span class="p">,</span> <span class="n">testCase</span> <span class="o">=</span> <span class="bp">None</span><span class="p">):</span>
+        <span class="n">Thread</span><span class="o">.</span><span class="n">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">)</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">_fifo</span> <span class="o">=</span> <span class="n">fifo</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">_testCase</span> <span class="o">=</span> <span class="n">testCase</span>
+
+    <span class="k">def</span> <span class="nf">run</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="k">if</span> <span class="bp">self</span><span class="o">.</span><span class="n">_testCase</span> <span class="o">==</span> <span class="bp">None</span> <span class="ow">or</span> <span class="bp">self</span><span class="o">.</span><span class="n">_testCase</span> <span class="o">==</span> <span class="mi">3</span> <span class="p">:</span>
+            <span class="c"># TEST_CASE_3</span>
+            <span class="bp">self</span><span class="o">.</span><span class="n">_test</span><span class="p">(</span><span class="s">'192.168.43.1:5555'</span><span class="p">,</span><span class="s">'com.example.nathan.benchtest.ExampleInstrumentedTest'</span><span class="p">,</span><span class="s">'TestCase_3_1'</span><span class="p">)</span>
+            <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="mi">6</span><span class="p">)</span> <span class="p">:</span>
+                <span class="n">nbAdbDevices</span> <span class="o">=</span> <span class="n">_ADB</span><span class="o">.</span><span class="n">getConectedAdbDevicesNumber</span><span class="p">()</span>
+                <span class="n">SWITCH</span><span class="o">.</span><span class="n">deactivatePort</span><span class="p">()</span>
+                <span class="n">sleep</span><span class="p">(</span><span class="mf">0.5</span><span class="p">)</span> <span class="c"># Let the electromagnet reset</span>
+                <span class="k">while</span> <span class="n">_ADB</span><span class="o">.</span><span class="n">getConectedAdbDevicesNumber</span><span class="p">()</span> <span class="o">&gt;</span> <span class="n">nbAdbDevices</span> <span class="p">:</span>
+                    <span class="n">sleep</span><span class="p">(</span><span class="mf">0.25</span><span class="p">)</span>
+                <span class="n">SWITCH</span><span class="o">.</span><span class="n">setActivePort</span><span class="p">(</span><span class="n">i</span><span class="p">)</span>
+                <span class="k">while</span> <span class="n">SWITCH</span><span class="o">.</span><span class="n">getActivePort</span><span class="p">()</span> <span class="o">!=</span> <span class="n">i</span> <span class="p">:</span>
+                    <span class="n">sleep</span><span class="p">(</span><span class="mf">0.25</span><span class="p">)</span>
+                <span class="k">print</span><span class="p">(</span><span class="s">'&gt;&gt;&gt; Wait for phone to be connected via adb'</span><span class="p">)</span>
+                <span class="k">while</span> <span class="n">_ADB</span><span class="o">.</span><span class="n">getConectedAdbDevicesNumber</span><span class="p">()</span> <span class="o">&lt;</span> <span class="n">nbAdbDevices</span> <span class="p">:</span>
+                    <span class="n">sleep</span><span class="p">(</span><span class="mf">0.25</span><span class="p">)</span>
+                <span class="k">print</span><span class="p">(</span><span class="s">'&gt;&gt;&gt; Phone succesfully connected via adb'</span><span class="p">)</span>
+                <span class="bp">self</span><span class="o">.</span><span class="n">_test</span><span class="p">(</span><span class="s">'USB'</span><span class="p">,</span> <span class="s">'com.example.nathan.benchtest.DeviceHotspotTest'</span><span class="p">,</span><span class="s">'TestCase_3_2'</span><span class="p">)</span>
+            <span class="bp">self</span><span class="o">.</span><span class="n">_test</span><span class="p">(</span><span class="n">ADB_FCB_ADDRESS</span><span class="p">,</span><span class="s">'com.example.nathan.benchtest.ExampleInstrumentedTest'</span><span class="p">,</span><span class="s">'TestCase_3_3'</span><span class="p">)</span>
+
+    <span class="k">def</span> <span class="nf">_test</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">device</span><span class="p">,</span> <span class="n">test_class</span><span class="p">,</span> <span class="n">test_method</span><span class="p">,</span> <span class="n">usb</span> <span class="o">=</span> <span class="bp">False</span><span class="p">):</span>
+        <span class="k">if</span> <span class="n">usb</span> <span class="o">==</span> <span class="s">"OUT"</span> <span class="p">:</span>
+            <span class="bp">self</span><span class="o">.</span><span class="n">_fifo</span><span class="o">.</span><span class="n">put</span><span class="p">(</span><span class="n">test_method</span><span class="p">)</span>
+            <span class="n">MUTEX_UNITTESTS</span><span class="o">.</span><span class="n">acquire</span><span class="p">()</span>
+            <span class="n">port</span> <span class="o">=</span> <span class="n">SWITCH</span><span class="o">.</span><span class="n">getActivePort</span><span class="p">()</span>
+            <span class="n">_ADB</span><span class="o">.</span><span class="n">runTestMethod</span><span class="p">(</span><span class="n">test_class</span><span class="p">,</span> <span class="n">test_method</span><span class="p">,</span> <span class="n">device</span><span class="p">)</span>
+            <span class="k">print</span><span class="p">(</span><span class="s">'&gt;&gt;&gt; WAIT for USB device to be plugged out'</span><span class="p">)</span>
+            <span class="k">while</span> <span class="n">SWITCH</span><span class="o">.</span><span class="n">getActivePort</span><span class="p">()</span> <span class="o">!=</span> <span class="n">port</span> <span class="p">:</span>
+                <span class="n">sleep</span><span class="p">(</span><span class="mf">0.025</span><span class="p">)</span>
+            <span class="k">print</span><span class="p">(</span><span class="s">'&gt;&gt;&gt; USB device plugged out!'</span><span class="p">)</span>
+        <span class="k">elif</span> <span class="n">usb</span> <span class="o">==</span> <span class="s">"IN"</span><span class="p">:</span>
+            <span class="bp">self</span><span class="o">.</span><span class="n">_fifo</span><span class="o">.</span><span class="n">put</span><span class="p">(</span><span class="n">test_method</span><span class="p">)</span>
+            <span class="n">MUTEX_UNITTESTS</span><span class="o">.</span><span class="n">acquire</span><span class="p">()</span>
+            <span class="n">_ADB</span><span class="o">.</span><span class="n">runTestMethod</span><span class="p">(</span><span class="n">test_class</span><span class="p">,</span> <span class="n">test_method</span><span class="p">,</span> <span class="n">device</span><span class="p">)</span>
+            <span class="k">print</span><span class="p">(</span><span class="s">'&gt;&gt;&gt; WAIT for USB device initialization'</span><span class="p">)</span>
+            <span class="n">MUTEX_USB_IN</span><span class="o">.</span><span class="n">acquire</span><span class="p">()</span> <span class="c"># we wait for the USB plug in to be processed ;</span>
+            <span class="c"># there should be as many MUTEX_USB_IN.acquire() as there are usb being</span>
+            <span class="c"># plugged in during the previous test</span>
+            <span class="k">print</span><span class="p">(</span><span class="s">'&gt;&gt;&gt; USB device initialization completed!'</span><span class="p">)</span>
+        <span class="k">else</span> <span class="p">:</span>
+            <span class="k">if</span> <span class="n">device</span> <span class="o">!=</span> <span class="s">'USB'</span><span class="p">:</span>
+                <span class="bp">self</span><span class="o">.</span><span class="n">_fifo</span><span class="o">.</span><span class="n">put</span><span class="p">(</span><span class="n">test_method</span><span class="p">)</span>
+                <span class="n">MUTEX_UNITTESTS</span><span class="o">.</span><span class="n">acquire</span><span class="p">()</span>
+            <span class="n">_ADB</span><span class="o">.</span><span class="n">runTestMethod</span><span class="p">(</span><span class="n">test_class</span><span class="p">,</span> <span class="n">test_method</span><span class="p">,</span> <span class="n">device</span><span class="p">)</span>
+</code></pre></div></div>
+
 <p>      The goal of unit tests is to detect potential bugs in your application. So, each time we came across a bug we put together logs, reproduction steps, screenshots and hypothesis on its cause for our colleagues to be able to fix it.</p>
+
+<p>      We learned a lot on the android’s development’s technologies thanks to this assignment.</p>
 </p></div>
   </div>
 

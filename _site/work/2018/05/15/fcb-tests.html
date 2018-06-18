@@ -44,7 +44,17 @@ and is wrapped around the whole page content, except for the footer in this exam
   <div class="w3-container w3-large w3-margin-left" >
     <div class="w3-justify" style="margin: 0 25px;"><p><p>      Our new task was to develop unit tests on a Honda car test bench, as well as a Python tool to automate the tests, recover the logs, and interact with the USB Multiplexer.</p>
 
-<p>      </p>
+<p>      The main project in our Wind River office is a 7-year long project aiming at developing an operating system, based on android, for Honda cars.<br />
+      They are currently in the testing phase, so they asked us to develop some unit tests for it. We were provided with a car test bench to run the tests on.</p>
+
+<p>      The tests we had to do were black-box tests, meaning that they can be launched without an access to the source code, just using the visible elements on the device’s screen. We used the android uiautomator tool in order to do that.</p>
+
+<p>      We were given test cases and we had to program them, first on the USB and then on the Wi-Fi module of the system. We used Android Studio to design the tests.</p>
+
+<p>      Our main goal was to automate the testing procedure. With this in mind we developed a Python tool that launched every tests through Android Debug Bridge. This tool had to recover, parse and save the device logs for every tests. It also had to communicate with an USB Multiplexer, using the tool we had previously developed.<br />
+      This way, the test flow could be entirely automated, launching tests on the test bench, automating the USB plugs-in and plugs-out, and recovering the logs for debug purposes.</p>
+
+<p>      The goal of unit tests is to detect potential bugs in your application. So, each time we came across a bug we put together logs, reproduction steps, screenshots and hypothesis on its cause for our colleagues to be able to fix it.</p>
 </p></div>
   </div>
 

@@ -22,7 +22,7 @@ description: I had the chance to discover Bucarest with my uncle.
 <img src="/assets/images/IMG_20180606_124226.jpg" onClick="onClick(this)" alt="" width="100%"/>  |  <img src="/assets/images/IMG_20180607_162125.jpg" onClick="onClick(this)" alt="Ceaucescu's palace, currently the Romanian parliament" width="100%"/>
 <img src="/assets/images/IMG_20180606_105235.jpg" onClick="onClick(this)" alt="" width="100%"/>  |  <img src="/assets/images/IMG_20180607_153122.jpg" onClick="onClick(this)" alt="" width="100%"/>
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;We stayed in an apartment we booked through booking, although the building looked like a communist remains, it had been renovated into a neat and modern apartment.  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;We stayed in an apartment we booked through Booking.com, although the building looked like a communist remains, it had been renovated into a neat and modern apartment.  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;One night we came back late, we took the communist-age elevator to go to the apartment on the 6th floor, and it got blocked in between two floors, with the door locked, and of course without an elevator emergency alarm. Hopefully the owner walked us through a way to unlock the door from within the elevator via a phone call and saved the night.  
 
 :-:|:-:

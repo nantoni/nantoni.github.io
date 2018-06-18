@@ -21,5 +21,5 @@ description: When we arrived at the Galati train station Emilia Pecheanu was wai
 
 
 :-:|:-:
-<img src="/assets/images/IMG_20180413_174259.jpg" alt="camin" width="94%"/> |  <img src="/assets/images/IMG_20180413_202136.jpg" alt="train tickets" width="100%"/>
+<img src="/assets/images/IMG_20180413_174259.jpg" onClick="onClick(this)" alt="Our camin" width="94%"/> |  <img src="/assets/images/IMG_20180413_202136.jpg" onClick="onClick(this)" alt="Our Bucarest-Galati train ticket" width="100%"/>
 _<sub>Our students accommodation</sub>_ | _<sub>Our train ticket from Bucarest to Galati: 12.50€ each</sub>_

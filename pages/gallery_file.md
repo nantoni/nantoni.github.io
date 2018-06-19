@@ -136,7 +136,7 @@ Constanta's beach
 Constanta's street
 
 /assets/images/IMG_20180528_131510.jpg
-Constanta old center
+Constanta's old center
 
 /assets/images/IMG_20180528_154217.jpg
 Constanta's old casino
@@ -148,7 +148,7 @@ The company's cat mother
 The company's kitten
 
 /assets/images/IMG_20180601_193306.jpg
-Cheap chincken finger's at Rotterdam café
+Cheap chicken finger's at Rotterdam café
 
 /assets/images/IMG_20180602_121034_HDR.jpg
 Water lilys on the Danube's delta

@@ -15,7 +15,7 @@ description: It's been more than a month since we were in Galati, and we hadn't 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The next weekend we were more motivated than ever to rent a car in order to go somewhere, and Iacobdeal was our main goal. We did the 3 places where you can rent cars in Galati just to be told that we hadn't enough driving experience... there goes another failure.
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Thanks to the orthodox Pentecost: Monday was a free day and we had a 3 days weekend, what a great occasion to visit the sea side! But this time we decided to rely on the train.  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;So we took the train to go to Constanta. Its a 4-hour long commute from Galati event tho it is only 150km away. Transportation is a huge issue in Romania, as their only international airport is the one in Bucarest and the train is insanely slow. In fact, the average speed for a train in Romania is 45km/hour... This is due to a lack of investment in the rail network.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;So we took the train to go to Constanta. Its a 4-hour long commute from Galati even tho it is only 150km away. Transportation is a huge issue in Romania, as their only international airport is the one in Bucarest and the train is insanely slow. In fact, the average speed for a train in Romania is 45km/hour... This is due to a lack of investment in the rail network.
 
 :-:|:-:
 <img src="/assets/images/IMG_20180526_155240.jpg" onClick="onClick(this)" alt="" onClick="onClick(this)" alt="" width="100%"/>|<img src="/assets/images/IMG_20180526_145845.jpg" onClick="onClick(this)" alt="" width="100%"/>

@@ -5,7 +5,7 @@ title: "Writing a Python driver for a USB Multiplexer device"
 display_date:
 categories: work
 img: "/assets/images/IMG_20180614_231126.jpg"
-description: After getting used to the uiautomator tool for future tasks we were asked to write a driver for a device they needed to use for their tests.
+description: After getting used to the uiautomator tool for future tasks we were asked to write a driver for a device our colleagues needed to use in their test environment.
 ---
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{{ page.description }}
@@ -48,7 +48,7 @@ description: After getting used to the uiautomator tool for future tasks we were
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;We now had to code the method to get the HID file matching the Multiplexer device, the method to read and parse it's data to retrieve the current port being switched on and the method to write the corresponding data buffers to switch the ports.
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;__Accessing the HID for input and output using Python was pretty straightforward and easier than expected:__
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;__Accessing the HID for inputs and outputs using Python was pretty straightforward and easier than expected:__
 ```python
 # Basic I/O with HID
 class _HID:
@@ -72,4 +72,4 @@ class _HID:
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;We then wrote a program to use our tool via command line and a documentation for our colleagues to understand the tool and to be able to embed it in their code. While coding the tool's methods we also coded some unit tests to assert that the methods are working the way they should.
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;We had achieved this task so we packed the whole in a zip file and we sent it to our colleagues on Skype.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Once we had achieved this task we packed the whole in a zip file and we sent it to our colleagues through Skype.

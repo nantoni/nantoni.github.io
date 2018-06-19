@@ -27,7 +27,7 @@ description: It's been more than a month since we were in Galati, and we hadn't 
 <img src="/assets/images/IMG_20180526_210643.jpg" onClick="onClick(this)" alt="" width="100%"/>|<img src="/assets/images/IMG_20180526_210625.jpg" onClick="onClick(this)" alt="" width="100%"/>
 <img src="/assets/images/IMG_20180526_210636_HHT.jpg" onClick="onClick(this)" alt="" width="100%"/>|<img src="/assets/images/IMG_20180526_210658.jpg" onClick="onClick(this)" alt="" width="100%"/>
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Despite the hot weather we were under since our arrival, we hadn't had the occasion to take a swim; me made up for that by diving into the watter of the black see. We did not see many people in the water as it felt really cold at first, but god it felt good.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Despite the hot weather we were under since our arrival, we hadn't had the occasion to take a swim; we made up for that by diving into the watter of the black see. We did not see many people in the water as it felt really cold at first, but god it felt good.
 
 :-:|:-:
 <img src="/assets/images/IMG_20180527_192124.jpg" onClick="onClick(this)" alt="" width="100%"/>|<img src="/assets/images/IMG_20180527_192135.jpg" onClick="onClick(this)" alt="" width="100%"/>
@@ -43,3 +43,5 @@ description: It's been more than a month since we were in Galati, and we hadn't 
 <img src="/assets/images/IMG_20180528_130910.jpg" onClick="onClick(this)" alt="" width="100%"/>|<img src="/assets/images/IMG_20180528_131510.jpg" onClick="onClick(this)" alt="" width="100%"/>
 <img src="/assets/images/IMG_20180528_154217.jpg" onClick="onClick(this)" alt="" width="100%"/>|<img src="/assets/images/IMG_20180528_154611.jpg" onClick="onClick(this)" alt="" width="100%"/>
 <img src="/assets/images/IMG_20180528_140329.jpg" onClick="onClick(this)" alt="" width="100%"/>|<img src="/assets/images/IMG_20180528_145122.jpg" onClick="onClick(this)" alt="" width="100%"/>
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;We then went back with another 4-hour train ride, happy to have finally been on a weekend. 
